@@ -38,7 +38,7 @@ when triggered by a short signal you get anything between a 2gt
 and 7gt pulse).
 
 
-![Signals](/assets/the-humble-etho-clock/etho-clock-signals.png)
+![Signals](/assets/the-humble-etho-clock/etho-clock-signals.jpg)
 
 The three most useful signals are:
 
@@ -68,16 +68,17 @@ An Extended 2 Game Tick Signal will still cause a sticky piston
 to eject its block, but it *will* pass through torches and comparators.
 
 This means the start and half-time pulses can be used in logic circuits
-or torch towers, but they can also be used as a normal 2gt signal,
-no need for an additional monostable.
+or torch towers, but they can also be used as a normal 2gt signal.
+A repeater or observer will turn a 2gt+ signal into a normal 2gt signal.
 
-There are other ways to produce such a signal (generally by a block event
+There are other ways to produce a 2gt+ signal (generally by a block event
 triggering the removal of a power source).  Ilmango has an excellent
 video on [Extended 2 Game Tick Signals](https://www.youtube.com/watch?v=VjzuJqWAPFQ).
 
+
 ## Example: Monostable with Spam Protection
 
-![Gnembon Tree Farm](/assets/the-humble-etho-clock/gnembon-tree-farm.png)
+![Gnembon Tree Farm](/assets/the-humble-etho-clock/gnembon-tree-farm.jpg)
 
 This is the piston layout for a Gnembon-style tree farm.
 It runs on a 10 gt signal, with 8 gt delay between the piston groups.
@@ -95,7 +96,7 @@ this position because it gives a good view of piston sequence.
 
 ## Example: Monostable II
 
-![Ilmango Duper](/assets/the-humble-etho-clock/ilmango-duper.png)
+![Ilmango Duper](/assets/the-humble-etho-clock/ilmango-duper.jpg)
 
 This is from Ilmangos Simple Oak/Birch farm.  It is kind of special because
 the TnT is duped on retraction - at the end of the signal.  The trap door
@@ -110,7 +111,7 @@ the next tnt is already falling while the trap door operates.
 
 ## Example: Monostable/Pulse Extender
 
-![Stem Farm](/assets/the-humble-etho-clock/stem-farm.png)
+![Stem Farm](/assets/the-humble-etho-clock/stem-farm.jpg)
 
 The screenshot shows the control of a TnT duper for a stem farm.
 
@@ -128,7 +129,7 @@ again when the next tree has grown.
 
 ## Example: Monostable/Pulse Extender II
 
-![TnTree Farm](/assets/the-humble-etho-clock/tntree-farm.png)
+![TnTree Farm](/assets/the-humble-etho-clock/tntree-farm.jpg)
 
 This example shows an Etho clock controlling a variation of an Etho TnTree Farm.  6
 dispensers loaded with TnT are spaced over 21 blocks, with a 24 gt delay between.
@@ -149,3 +150,23 @@ Why 21 items?  The last dispenser fires 120 gt after the first one, and the last
 TnT has to fall 20+ blocks before the first piston extends again.  The piston delays
 cancel each other out, it is just the delay between first and last dispenser
 plus the time for the TnT to fall.
+
+
+## Double Frequency
+
+Much has changed since Etho's orginal video about his hopper clock,
+but one trick still works:  OR-ing the signal from the redstone block
+is the same as OR-int the 2gt+ signals and will give you a 2gt+ signal 
+with doubled frequency.
+
+| Items | Double Frequence Cycle | Double Frequency Durations |
+| 2 items | 10 gt (0.5 s) | 2gt+ up, 8 gt down |
+| 3 items | 18 gt (0.9 s) | 2gt+ up, 16 gt down |
+| 4 items | 26 gt (1.3 s) | 2gt+ up, 24 gt down |
+| 5 items | 34 gt (1.7 s) | 2gt+ up, 32 gt down |
+| For n >= 2 | 2 + 8*(n - 1) | 2gt+ up, 8*(n - 1) down |
+
+![Double the Frequency with this simple trick](/assets/the-humble-etho-clock/double-frequency.jpg)
+
+A logical AND of additional comparator readings on the hopper gives a signal while the circuit is active,
+e.g. to turn off other parts of a farm or to give some user feedback.

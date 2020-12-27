@@ -7,7 +7,7 @@ categories: redstone
 
 ## Horizontal TnT Duper Retained by Piston
 
-![Duper retained by piston](/assets/tnt-fall-height/duper-piston.png)
+![Duper retained by piston](/assets/tnt-fall-height/duper-piston.jpg)
 
 Fall height is measured from the Shroomlights.  Example shows 2s delay.
 
