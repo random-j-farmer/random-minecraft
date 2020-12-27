@@ -21,32 +21,15 @@ or even a monostable/pulse extender.
 
 ## Timings and Signals
 
-The table below gives the cycle lengths for various numbers of items.
-
-| Items | Total Cycle | Half-Cycle |
-| 2 items | 20 gt (1 s) | 8 gt up, 4 + 8 gt down |
-| 3 items | 36 gt (1.8 s) | 16 gt up, 4 + 16 gt down |
-| 4 items | 52 gt (2.6 s) | 24 gt up, 4 + 24 gt down |
-| 5 items | 68 gt (3.4 s) | 32 gt up, 4 + 32 gt down |
-| For n >= 2 | 4 + 16*(n - 1) | 8*(n - 1) up |
-
-I would not recommend using an Etho clock with 1 item. The half-cycles
-become odd (5gt up/9gt down),  and the start pulse is unreliable. 
-It behaves differently depending on the input signal (i.e. when the
-clock is on for longer periods, you get an alternating 14gt signal,
-when triggered by a short signal you get anything between a 2gt
-and 7gt pulse).
-
-
 ![Signals](/assets/the-humble-etho-clock/etho-clock-signals.jpg)
 
 The three most useful signals are:
 
-1. In the position of the front lamp, a continuous signal for the
-   first half cylcle (minus the start pulse) can be taken.
-2. The torch on the right (near the off-switch) gives a 2gt+ signal
+1. The torch on the right (near the off-switch) gives a 2gt+ signal
    at the start of the cycle - this can be used with comparators
    and torches but sticky pistons will eject their block.
+2. In the position of the front lamp, a continuous signal for the
+   first half cycle (minus the start pulse) can be taken.
 3. The comparator pointing in front gives a continuous signal
    for the whole cycle (minus the start pulse).
 
@@ -57,6 +40,19 @@ Combining an additional comparator reading from the right hopper
 with a falling edge detector gives a signal at the end of the
 cycle (in the example image, the comparator at the back 
 leads into sticky piston pushing an observer).
+
+| Items | Total Cycle | Up (RS Block) | Down (RS Block) |
+{% for tup in site.data.etho_clock_ticks.normal -%}
+| {{ tup.n }} items | {{ tup.total }}gt ({{ tup.totalSeconds }}s) | {{ tup.up }}gt ({{ tup.upSeconds }}s) |  {{ tup.down }}gt ({{ tup.downSeconds }}s) | 
+{% endfor -%}
+| For n >= 2 | 4 + 16*(n - 1) | 8*(n - 1) up | 4 + 8*(n - 1) down |
+
+I would not recommend using an Etho clock with 1 item. The half-cycles
+become odd (5gt up/9gt down),  and the start pulse is unreliable. 
+It behaves differently depending on the input signal (i.e. when the
+clock is on for longer periods, you get an alternating 14gt signal,
+when triggered by a short signal you get anything between a 2gt
+and 7gt pulse).
 
 ### 2gt+ Signal aka Extended 2 Game Tick Signal
 
@@ -134,17 +130,15 @@ again when the next tree has grown.
 This example shows an Etho clock controlling a variation of an Etho TnTree Farm.  6
 dispensers loaded with TnT are spaced over 21 blocks, with a 24 gt delay between.
 Below every dispenser is a piston that will retract 36 gt later, giving the TnT
-a fall height of around 27ish blocks.
+a fall height of 27ish blocks.
 
 It's a nice and fun farm, but if the signal is too short, the lower pistons will
 expand before the last TnT has passed by and the farm will blow up.
 
 The Etho clock is triggered by pressing the button, or by the observing a bubble
-column onto a 2-tick repeater.  It has 21 items in it and the signal it provides is just long enough
-to prevent that from happening - one less item and farm go BOOM.  The second half of
-the cycle allows all pistons to extend again.  This is not strictly necessary but
-does not hurt with this farm because after the explosions the player has to plant
-and bonemeal 4 spruce trees anyway.
+column onto a 2-tick repeater.  It has 21 items in it and that is just short
+enough to not blow up.  The second half of the cycle allows all pistons to extend again.  
+This is not strictly necessary, but the player has to plant and bonemeal 4 spruce trees anyway.
 
 Why 21 items?  The last dispenser fires 120 gt after the first one, and the last
 TnT has to fall 20+ blocks before the first piston extends again.  The piston delays
@@ -156,17 +150,16 @@ plus the time for the TnT to fall.
 
 Much has changed since Etho's orginal video about his hopper clock,
 but one trick still works:  OR-ing the signal from the redstone block
-is the same as OR-int the 2gt+ signals and will give you a 2gt+ signal 
+is the same as OR-ing the 2gt+ signals and will give you a 2gt+ signal 
 with doubled frequency.
 
-| Items | Double Frequence Cycle | Double Frequency Durations |
-| 2 items | 10 gt (0.5 s) | 2gt+ up, 8 gt down |
-| 3 items | 18 gt (0.9 s) | 2gt+ up, 16 gt down |
-| 4 items | 26 gt (1.3 s) | 2gt+ up, 24 gt down |
-| 5 items | 34 gt (1.7 s) | 2gt+ up, 32 gt down |
-| For n >= 2 | 2 + 8*(n - 1) | 2gt+ up, 8*(n - 1) down |
-
 ![Double the Frequency with this simple trick](/assets/the-humble-etho-clock/double-frequency.jpg)
+
+| Items | Double Freq Cycle | Double Freq Up | Double Freq Down |
+{% for tup in site.data.etho_clock_ticks.doubleFrequency -%}
+| {{ tup.n }} items | {{ tup.total }}gt ({{ tup.totalSeconds }}s) | {{ tup.up }}gt ({{ tup.upSeconds }}s) |  {{ tup.down }}gt ({{ tup.downSeconds }}s) | 
+{% endfor -%}
+| For n >= 2 | 2 + 8*(n - 1) | 2gt+ | 8*(n - 1) |
 
 A logical AND of additional comparator readings on the hopper gives a signal while the circuit is active,
 e.g. to turn off other parts of a farm or to give some user feedback.
