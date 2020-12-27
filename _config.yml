@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Random J. Farmer on Love, Life and Minecraft.
   One out of Three ain't bad, right!?
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/random-minecraft" # the subpath of your site, e.g. /blog
 # this needs to be set for minima with disqus
 url: "https://random-j-farmer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

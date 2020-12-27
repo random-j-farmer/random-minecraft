@@ -20,7 +20,7 @@ or even a monostable/pulse extender.
 
 ## Timings and Signals
 
-![Signals](/assets/the-humble-etho-clock/etho-clock-signals.jpg)
+![Signals](/random-minecraft/assets/the-humble-etho-clock/etho-clock-signals.jpg)
 
 The three most useful signals are:
 
@@ -73,7 +73,7 @@ video on [Extended 2 Game Tick Signals](https://www.youtube.com/watch?v=VjzuJqWA
 
 ## Example: Monostable with Spam Protection
 
-![Gnembon Tree Farm](/assets/the-humble-etho-clock/gnembon-tree-farm.jpg)
+![Gnembon Tree Farm](/random-minecraft/assets/the-humble-etho-clock/gnembon-tree-farm.jpg)
 
 This is the piston layout for a Gnembon-style tree farm.
 It runs on a 10 gt signal, with 8 gt delay between the piston groups.
@@ -91,7 +91,7 @@ this position because it gives a good view of piston sequence.
 
 ## Example: Monostable II
 
-![Ilmango Duper](/assets/the-humble-etho-clock/ilmango-duper.jpg)
+![Ilmango Duper](/random-minecraft/assets/the-humble-etho-clock/ilmango-duper.jpg)
 
 This is from Ilmangos Simple Oak/Birch farm.  It is kind of special because
 the TnT is duped on retraction - at the end of the signal.  The trap door
@@ -106,7 +106,7 @@ the next tnt is already falling while the trap door operates.
 
 ## Example: Monostable/Pulse Extender
 
-![Stem Farm](/assets/the-humble-etho-clock/stem-farm.jpg)
+![Stem Farm](/random-minecraft/assets/the-humble-etho-clock/stem-farm.jpg)
 
 The screenshot shows the control of a TnT duper for a stem farm.
 
@@ -124,7 +124,7 @@ again when the next tree has grown.
 
 ## Example: Monostable/Pulse Extender II
 
-![TnTree Farm](/assets/the-humble-etho-clock/tntree-farm.jpg)
+![TnTree Farm](/random-minecraft/assets/the-humble-etho-clock/tntree-farm.jpg)
 
 This example shows an Etho clock controlling a variation of an Etho TnTree Farm.  6
 dispensers loaded with TnT are spaced over 21 blocks, with a 24 gt delay between.
@@ -154,7 +154,7 @@ but one trick still works:  OR-ing the signal from the redstone block
 is the same as OR-ing the 2gt+ signals and will give you a 2gt+ signal 
 with doubled frequency.
 
-![Double the Frequency with this simple trick](/assets/the-humble-etho-clock/double-frequency.jpg)
+![Double the Frequency with this simple trick](/random-minecraft/assets/the-humble-etho-clock/double-frequency.jpg)
 
 | Items | Double Freq Cycle | Double Freq Up | Double Freq Down |
 {% for tup in site.data.etho_clock_ticks.doubleFrequency -%}
