@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "TnT Fall Distance"
-# date:   2020-12-24 08:47:49 +0100
 categories: redstone
 ---
 

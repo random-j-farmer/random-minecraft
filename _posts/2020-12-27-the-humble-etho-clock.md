@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Humble Etho Clock"
-# date:   2020-12-24 08:47:49 +0100
 categories: redstone
 ---
 The Etho Clock shows up in a lot of redstone tutorials as a clock with 
@@ -133,12 +132,14 @@ Below every dispenser is a piston that will retract 36 gt later, giving the TnT
 a fall height of 27ish blocks.
 
 It's a nice and fun farm, but if the signal is too short, the lower pistons will
-expand before the last TnT has passed by and the farm will blow up.
+extend before the last TnT has passed by and the farm will blow up.
 
-The Etho clock is triggered by pressing the button, or by the observing a bubble
-column onto a 2-tick repeater.  It has 21 items in it and that is just short
-enough to not blow up.  The second half of the cycle allows all pistons to extend again.  
-This is not strictly necessary, but the player has to plant and bonemeal 4 spruce trees anyway.
+The Etho clock is triggered by pressing the button, or by the 
+observing a bubble column onto a 2-tick repeater.  It has 21 items 
+in it and that is just short enough to not blow up.  The second 
+half of the cycle allows all pistons to extend again.  This is not 
+strictly necessary, but the player has to plant and 
+bonemeal 4 spruce trees anyway.
 
 Why 21 items?  The last dispenser fires 120 gt after the first one, and the last
 TnT has to fall 20+ blocks before the first piston extends again.  The piston delays
@@ -161,5 +162,6 @@ with doubled frequency.
 {% endfor -%}
 | For n >= 2 | 2 + 8*(n - 1) | 2gt+ | 8*(n - 1) |
 
-A logical AND of additional comparator readings on the hopper gives a signal while the circuit is active,
-e.g. to turn off other parts of a farm or to give some user feedback.
+A logical AND of additional comparator readings on the hopper gives 
+a signal while the circuit is active, e.g. to turn off other parts 
+of a farm or to give some user feedback.
