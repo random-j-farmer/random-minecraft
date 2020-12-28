@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TnT Fall Distance"
-categories: redstone
+tags: redstone tnt
 ---
 
 ## Horizontal TnT Duper Retained by Piston

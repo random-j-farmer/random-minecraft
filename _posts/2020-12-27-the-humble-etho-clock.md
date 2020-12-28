@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "The Humble Etho Clock"
-tags:
-  - redstone
+tags: redstone
 ---
 The Etho Clock shows up in a lot of redstone tutorials as a clock with 
 programmable cycle length. But it is more than that -

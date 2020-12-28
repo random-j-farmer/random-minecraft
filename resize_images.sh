@@ -2,7 +2,7 @@
 
 set -x
 
-for png in $(find images -name '*.png') ; do
+for png in $(find images/tnt-dupers -name '*.png') ; do
   jpg="${png%.png}.jpg"
   jpg="assets/${jpg#images/}"
   jpg_dir=$(dirname "$jpg")
