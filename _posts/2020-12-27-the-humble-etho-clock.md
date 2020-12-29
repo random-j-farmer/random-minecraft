@@ -3,6 +3,10 @@ layout: post
 title:  "The Humble Etho Clock"
 tags: redstone
 ---
+> This is for Java Edition.  As far as I know, the Etho Clock works in Bedrock,
+> but details (like timings) will be different.  I assume 2gt+ signals are
+> not a thing in Bedrock.
+
 The Etho Clock shows up in a lot of redstone tutorials as a clock with 
 programmable cycle length. But it is more than that -
 it will always complete its current cycle, 
@@ -94,10 +98,10 @@ this position because it gives a good view of piston sequence.
 ![Ilmango Duper](/random-minecraft/assets/the-humble-etho-clock/ilmango-duper.jpg)
 
 This is from Ilmangos Simple Oak/Birch farm.  It is kind of special because
-the TnT is duped on retraction - at the end of the signal.  The trap door
+the TNT is duped on retraction - at the end of the signal.  The trap door
 is pulsed by the observer when the lower piston extends - at the start of the signal.
 
-Usually TnT dupers will be controlled by the half-cycle signal, here
+Usually TNT dupers will be controlled by the half-cycle signal, here
 the 2gt+ pulse is better because we need a short signal.
 
 The clock contains 5 items - with a constant signal,
@@ -108,16 +112,16 @@ the next tnt is already falling while the trap door operates.
 
 ![Stem Farm](/random-minecraft/assets/the-humble-etho-clock/stem-farm.jpg)
 
-The screenshot shows the control of a TnT duper for a stem farm.
+The screenshot shows the control of a TNT duper for a stem farm.
 
 The input is the NoTree signal on the right.  When this goes down,
-a TnT is duped every 4.2 seconds until the trunk has been pushed
+a TNT is duped every 4.2 seconds until the trunk has been pushed
 up by a piston.
 
 The output is the DuperActive signal on the left.  It goes into
 a logic circuit that controls the main farm.  When the tree
-trunk has been pushed up and the current TnT has has exploded,
-the farm will go back into grow mode and signal the TnT duper
+trunk has been pushed up and the current TNT has has exploded,
+the farm will go back into grow mode and signal the TNT duper
 again when the next tree has grown.
 
 
@@ -127,12 +131,12 @@ again when the next tree has grown.
 ![TnTree Farm](/random-minecraft/assets/the-humble-etho-clock/tntree-farm.jpg)
 
 This example shows an Etho clock controlling a variation of an Etho TnTree Farm.  6
-dispensers loaded with TnT are spaced over 21 blocks, with a 24 gt delay between.
-Below every dispenser is a piston that will retract 36 gt later, giving the TnT
+dispensers loaded with TNT are spaced over 21 blocks, with a 24 gt delay between.
+Below every dispenser is a piston that will retract 36 gt later, giving the TNT
 a fall height of 27ish blocks.
 
 It's a nice and fun farm, but if the signal is too short, the lower pistons will
-extend before the last TnT has passed by and the farm will blow up.
+extend before the last TNT has passed by and the farm will blow up.
 
 The Etho clock is triggered by pressing the button, or by the 
 observing a bubble column onto a 2-tick repeater.  It has 21 items 
@@ -142,9 +146,9 @@ strictly necessary, but the player has to plant and
 bonemeal 4 spruce trees anyway.
 
 Why 21 items?  The last dispenser fires 120 gt after the first one, and the last
-TnT has to fall 20+ blocks before the first piston extends again.  The piston delays
+TNT has to fall 20+ blocks before the first piston extends again.  The piston delays
 cancel each other out, it is just the delay between first and last dispenser
-plus the time for the TnT to fall.
+plus the time for the TNT to fall.
 
 
 ## Double Frequency

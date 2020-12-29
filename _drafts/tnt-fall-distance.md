@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "TnT Fall Distance"
+title:  "TNT Fall Distance"
 tags: redstone tnt
 ---
 
-## Horizontal TnT Duper Retained by Piston
+## Horizontal TNT Duper Retained by Piston
 
 ![Duper retained by piston](/random-minecraft/assets/tnt-fall-height/duper-piston.jpg)
 
@@ -12,7 +12,7 @@ Fall height is measured from the Shroomlights.  Example shows 2s delay.
 
 Delay is pure redstone delay on piston retraction.  The torch
 and the duper piston cancel each other out.  It takes an additional
-tick for the TnT to prime it seems!
+tick for the TNT to prime it seems!
 
 Fall time is 4.1 - delay.  The fall height formula is the standard
 one from real life:  9.81/2*square(t)
@@ -35,7 +35,7 @@ one from real life:  9.81/2*square(t)
 | 5 | 8 - 13 |
 
 
-## Horizontal TnT Duper w/ Honey Blocks
+## Horizontal TNT Duper w/ Honey Blocks
 
 | Honey blocks | Destroyed Y |
 | 3x2 Honey | 48 - 54 |
