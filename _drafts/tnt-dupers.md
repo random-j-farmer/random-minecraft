@@ -43,13 +43,15 @@ it does not hop up which gives you extra time.  Also there are no slimeblocks
 next to the TNT in the main direction of travel, this lets you align the falling
 TNT with 2 walls and a fence gate.  This is great for stationary farms.
 
-### The Mytteri Pull Duper
+### The Kades Duper
+
+This variation is actually by Kades.  It dupes on pull.
 
 * Easy to figure out the correct position
 * Easy to assemble and re-assemble
 * Exact alignment with 2 walls and 1 open fence gate
 
-![Mytteri Pull Duper - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-pull-assembly.jpg)
+![Kades Duper - Assembly](/random-minecraft/assets/tnt-dupers/kades-assembly.jpg)
 
 Just put the TNT where you want it to fall and build the shape from there. 
 First push will grab the TNT, first pull will dupe.
@@ -58,15 +60,17 @@ To re-assemble if you lost the TNT or because you used a placeholder block until
 the timings seem ok:  Put the TNT below the wall, first push will grab the TNT,
 first pull will dupe.
 
-![Mytteri Pull Duper - Operational](/random-minecraft/assets/tnt-dupers/mytteri-pull-operational.jpg)
+![Kades Duper - Operational](/random-minecraft/assets/tnt-dupers/kades-operational.jpg)
 
+There is a 2-way option by putting an additional block behind the slimeblock 
+that holds the coral fan.
 
 ### The Mytteri Push Duper
 
 The famous one.  Dupes on push.  For a stationary farm I prefer the pull duper,
 for a flying machine I would consider other designs first.
 
-* Easy to assemble
+* Easy to assemble, can be reassembled
 * Exact alignment with 2 walls and 1 open fence gate
 
 ![Mytteri Push Duper - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-push-assembly.jpg)
@@ -82,9 +86,9 @@ First push will grab the TNT, next push will dupe.
 
 ### Other Variations
 
-* Push-Pull Duper: have a coral fan in front and in back of the TNT
-* [5 Way TNT Duper](https://www.youtube.com/watch?v=TyT2TdkDs0Q): 
-  Pull duper, with additional slimeblock and additional walls.
+* Two-Way Duper: have a coral fan in front and in back of the TNT
+* Ilmango [5 Way TNT Duper](https://www.youtube.com/watch?v=TyT2TdkDs0Q): 
+  Pull duper with additional slimeblock and additional walls.
   Can be pushed and pulled on top slimeblocks, or pushed against
   the minecart.
 
@@ -120,14 +124,37 @@ By knocking out the bottom 2 slimeblocks and sticking the coral fan on the remai
 below the TNT, you get a pull duper.  The TNT falls instead of shooting out.
 
 
-## Timing and Alignment
+## Eta740 "Most Versatile" Dupers
 
-* 2 Walls and open fence gate: Ilmango
-* Water: moves 1 block in 5 game ticks
+* Good for Tunnel Bores
 
 
-## TODO
+This one has so so many variations, watch the Eta740's video
+on [Standard TNT Dupers](https://youtu.be/xs2XVyZ0tGY?t=130).  
+Not so easy to align, so other options are better for stationary farms. But it's
+only 3 blocks high and can shoot out the TNT which makes it an option
+for Tunnel Bores - Ilmango uses it in his Industrial Tunnel Bore.
 
-[2 way duper by Mytteri](https://www.youtube.com/watch?v=gpb4MxmX-6Y)
+![Eta Tunnel Bore - Assembly](/random-minecraft/assets/tnt-dupers/eta-bore-assembly.jpg)
 
-Eta740 on [Standard TNT Dupers](https://www.youtube.com/watch?v=xs2XVyZ0tGY)
+I am showing the Tunnel Bore variation, which is not as nice to
+assemble as the other variations - but it is the most useful one.
+
+![Eta Tunnel Bore - Assembly](/random-minecraft/assets/tnt-dupers/eta-bore-operational.jpg)
+
+
+## Mytteri 2-way Duper
+
+Our man Mytteri *really* likes TNT Dupers.
+
+* Easy to assemble and re-assemble
+* Good for flying machines or if you just want a big hole
+
+![Mytteri 2-way - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-2way-assembly.jpg)
+
+If you knock out the bottom front wall, you get a push duper.  If you knock out the bottom back
+wall, you get a pull duper.
+
+Or you just leave it as is and DUPE ALL THE TNT!!!
+
+![Mytteri 2-way - In Action](/random-minecraft/assets/tnt-dupers/dupe-all-the-tnt.jpg)
