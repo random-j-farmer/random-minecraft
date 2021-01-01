@@ -1,4 +1,16 @@
 "type","delay","yStart","yMin","yMax"
+"trapdoor",0.5,96,17,24
+"trapdoor",0.6,96,33,41
+"trapdoor",0.8,96,39,47
+"trapdoor",1.2,96,50,58
+"trapdoor",1.6,96,60,68
+"trapdoor",2.0,96,70,76
+"trapdoor",2.4,96,78,85
+"trapdoor",2.8,96,84,92
+"trapdoor",2.9,96,86,93
+"trapdoor",3.0,96,87,93
+"trapdoor",3.1,96,88,96
+"trapdoor",3.2,96,89,97
 "piston",0.1,99,18,25
 "piston",0.4,99,18,25
 "piston",0.5,99,18,26
@@ -25,17 +37,4 @@
 "piston",2.6,99,84,91
 "piston",2.7,99,84,93
 "piston",2.8,99,87,94
-"trapdoor",0.5,96,17,24
-"trapdoor",0.6,96,33,41
-"trapdoor",0.8,96,39,47
-"trapdoor",1.2,96,50,58
-"trapdoor",1.6,96,60,68
-"trapdoor",2.0,96,70,76
-"trapdoor",2.4,96,78,85
-"trapdoor",2.8,96,84,92
-"trapdoor",2.9,96,86,93
-"trapdoor",3.0,96,87,93
-"trapdoor",3.1,96,88,96
-"trapdoor",3.2,96,89,97
-
 

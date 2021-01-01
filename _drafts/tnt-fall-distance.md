@@ -14,18 +14,18 @@ screw up the timing and the TNT explodes in the water, your mechanism
 will not be damaged (it's not 100% foolproof though, e.g. 3.6s delay with
 the trapdoor example will damage the duper).
 
+<p float="left">
+<img alt="Fall chute/piston" width="48%"
+     src="/random-minecraft/assets/tnt-fall-height/push_duper_retained_by_piston.jpg">
+<img alt="Waterlogged trapdoor" width="48%"
+     src="/random-minecraft/assets/tnt-fall-height/pull_duper_waterlogged_trapdoor.jpg">
+</p>
 
-![Fall chute/piston](/random-minecraft/assets/tnt-fall-height/push_duper_retained_by_piston.jpg)
+Only repeaters on orange concrete count as delay (in the first picture, the torch and repeater
+cancel each other out; in the second case the 3-tick repeater (green concrete) is canceled
+by the 2 ticks repeater and the wait until the piston retracts).
 
-The torch and the duper piston cancel each other out - only orange cement counts as delay.
-
-![Waterlogged trapdoor](/random-minecraft/assets/tnt-fall-height/pull_duper_waterlogged_trapdoor.jpg)
-
-We need a 2 tick pulse for the duper, the the push of the piston adds another tick.  This
-is cancelled out by the 3 tick repeater on the green cement.  Again, only orange cement
-counts as delay.
-
-If you want *really* low fall height, that green cement block should be obsidian as well.
+If you want *really* low fall height, that green cement block on the right picture should be obsidian as well.
 
 In both cases it takes the TNT another 0.1s to be primed.  So for delay $$d$$,
 fall time $$t$$ and fall height $$h$$ we get:
@@ -38,6 +38,17 @@ $$h = at^2$$
 
 
 ![TNT Fall height by delay](/random-minecraft/assets/tnt-fall-height/fallheight.svg)
+
+The line in red is the plotted formula.  Generally you need at least 0.5 seconds of delay
+or the TNT falls straight through to it's max fall height of 77 blocks.  With the trapdoor
+you can use longer delays (up to 3.2 seconds) although you'll have to make that green cement
+block obsidian.  With 3.2 s delay, all the blocks up to the obsidian are destroyed.
+
+The Piston/Fall Chute version blows up if you go over 2.8 s.
+
+| Delay | Fall Distance |
+{% for tup in site.data.tnt_fallheight %}| {{ tup.delay }} s | {{ tup.fallHeight }} m |
+{% endfor %}
 
 ## Horizontal Dispenser w/ Honey Blocks
 
