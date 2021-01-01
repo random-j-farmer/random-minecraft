@@ -143,6 +143,10 @@ assemble as the other variations - but it is the most useful one.
 ![Eta Tunnel Bore - Assembly](/random-minecraft/assets/tnt-dupers/eta-bore-operational.jpg)
 
 
+## Ilmango Honey Duper
+
+XXX WRITE ME
+
 ## Mytteri 2-way Duper
 
 Our man Mytteri *really* likes TNT Dupers.

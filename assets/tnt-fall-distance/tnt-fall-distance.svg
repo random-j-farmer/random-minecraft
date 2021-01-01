@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="152.4mm" height="101.6mm" viewBox="0 0 152.4 101.6"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<defs>
+  <marker id="arrow" markerWidth="15" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L15,3.5 L0,7 z" stroke="context-stroke" fill="context-stroke"/>
+  </marker>
+</defs>
+<g class="plotroot xscalable yscalable" id="img-1976de36-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-1976de36-2">
+    <g transform="translate(76.03,89.99)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">delay</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-1976de36-3">
+    <g transform="translate(21.63,83.32)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">0</text>
+      </g>
+    </g>
+    <g transform="translate(48.83,83.32)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">1</text>
+      </g>
+    </g>
+    <g transform="translate(76.03,83.32)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2</text>
+      </g>
+    </g>
+    <g transform="translate(103.22,83.32)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">3</text>
+      </g>
+    </g>
+    <g transform="translate(130.42,83.32)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">4</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide colorkey" id="img-1976de36-4">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-1976de36-5">
+      <g transform="translate(137.05,38.96)" id="img-1976de36-6">
+        <g class="primitive">
+          <text dy="0.35em">trapdoor</text>
+        </g>
+      </g>
+      <g transform="translate(137.05,42.59)" id="img-1976de36-7">
+        <g class="primitive">
+          <text dy="0.35em">piston</text>
+        </g>
+      </g>
+      <g transform="translate(137.05,46.21)" id="img-1976de36-8">
+        <g class="primitive">
+          <text dy="0.35em">piston2</text>
+        </g>
+      </g>
+      <g transform="translate(137.05,49.84)" id="img-1976de36-9">
+        <g class="primitive">
+          <text dy="0.35em">disp-td</text>
+        </g>
+      </g>
+      <g transform="translate(137.05,53.47)" id="img-1976de36-10">
+        <g class="primitive">
+          <text dy="0.35em">disp-p</text>
+        </g>
+      </g>
+    </g>
+    <g stroke-width="0.3" id="img-1976de36-11">
+      <g stroke="#FFFFFF" fill-opacity="1" fill="#BEA9FF" id="img-1976de36-12">
+        <g transform="translate(134.23,53.47)" id="img-1976de36-13">
+          <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+        </g>
+      </g>
+      <g stroke="#FFFFFF" fill-opacity="1" fill="#00B78D" id="img-1976de36-14">
+        <g transform="translate(134.23,49.84)" id="img-1976de36-15">
+          <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+        </g>
+      </g>
+      <g stroke="#FFFFFF" fill-opacity="1" fill="#FF6DAE" id="img-1976de36-16">
+        <g transform="translate(134.23,46.21)" id="img-1976de36-17">
+          <path d="M0,-0.9 L0.9,0 0,0.9 -0.9,0  z" class="primitive"/>
+        </g>
+      </g>
+      <g stroke="#FFFFFF" fill-opacity="1" fill="#D4CA3A" id="img-1976de36-18">
+        <g transform="translate(134.23,42.59)" id="img-1976de36-19">
+          <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+        </g>
+      </g>
+      <g stroke="#FFFFFF" fill-opacity="1" fill="#00BFFF" id="img-1976de36-20">
+        <g transform="translate(134.23,38.96)" id="img-1976de36-21">
+          <circle cx="0" cy="0" r="0.9" class="primitive"/>
+        </g>
+      </g>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-1976de36-22">
+      <g transform="translate(133.42,35.65)" id="img-1976de36-23">
+        <g class="primitive">
+          <text dy="-0em">type</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g clip-path="url(#img-1976de36-24)">
+    <g id="img-1976de36-25">
+      <g pointer-events="visible" stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-1976de36-26">
+        <g transform="translate(76.03,43.66)" id="img-1976de36-27">
+          <path d="M-56.39,-38.66 L56.39,-38.66 56.39,38.66 -56.39,38.66  z" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-1976de36-28">
+        <g transform="translate(76.03,80.32)" id="img-1976de36-29">
+          <path fill="none" d="M-56.39,0 L56.39,0 " class="primitive"/>
+        </g>
+        <g transform="translate(76.03,43.66)" id="img-1976de36-30">
+          <path fill="none" d="M-56.39,0 L56.39,0 " class="primitive"/>
+        </g>
+        <g transform="translate(76.03,7)" id="img-1976de36-31">
+          <path fill="none" d="M-56.39,0 L56.39,0 " class="primitive"/>
+        </g>
+      </g>
+      <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-1976de36-32">
+        <g transform="translate(21.63,43.66)" id="img-1976de36-33">
+          <path fill="none" d="M0,-38.66 L0,38.66 " class="primitive"/>
+        </g>
+        <g transform="translate(48.83,43.66)" id="img-1976de36-34">
+          <path fill="none" d="M0,-38.66 L0,38.66 " class="primitive"/>
+        </g>
+        <g transform="translate(76.03,43.66)" id="img-1976de36-35">
+          <path fill="none" d="M0,-38.66 L0,38.66 " class="primitive"/>
+        </g>
+        <g transform="translate(103.22,43.66)" id="img-1976de36-36">
+          <path fill="none" d="M0,-38.66 L0,38.66 " class="primitive"/>
+        </g>
+        <g transform="translate(130.42,43.66)" id="img-1976de36-37">
+          <path fill="none" d="M0,-38.66 L0,38.66 " class="primitive"/>
+        </g>
+      </g>
+      <g class="plotpanel" id="img-1976de36-38">
+        <metadata>
+          <boundingbox value="19.63166666666666mm 5.0mm 112.7883333333333mm 77.315mm"/>
+          <unitbox value="-0.0735372971979226 102.72795471595171 4.147074594395845 -105.45590943190344"/>
+        </metadata>
+        <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" id="img-1976de36-39">
+          <g class="color_RGB{N0f8}(1.0,0.0,0.0)" stroke-dasharray="none" stroke="#FF0000" id="img-1976de36-40">
+            <g transform="translate(77.39,55.86)" id="img-1976de36-41">
+              <path fill="none" d="M-53.03,-42.04 L-52.61,-41.55 -52.18,-41.07 -51.76,-40.59 -51.33,-40.11 -50.9,-39.64 -50.48,-39.16 -50.05,-38.69 -49.63,-38.22 -49.2,-37.75 -48.77,-37.28 -48.35,-36.82 -47.92,-36.35 -47.5,-35.89 -47.07,-35.43 -46.64,-34.97 -46.22,-34.51 -45.79,-34.06 -45.37,-33.6 -44.94,-33.15 -44.51,-32.7 -44.09,-32.25 -43.66,-31.81 -43.24,-31.36 -42.81,-30.92 -42.38,-30.48 -41.96,-30.04 -41.53,-29.6 -41.11,-29.17 -40.68,-28.73 -40.25,-28.3 -39.83,-27.87 -39.4,-27.44 -38.98,-27.01 -38.55,-26.59 -38.13,-26.16 -37.7,-25.74 -37.27,-25.32 -36.85,-24.9 -36.42,-24.49 -36,-24.07 -35.57,-23.66 -35.14,-23.25 -34.72,-22.84 -34.29,-22.43 -33.87,-22.03 -33.44,-21.62 -33.01,-21.22 -32.59,-20.82 -32.16,-20.42 -31.74,-20.02 -31.31,-19.63 -30.88,-19.23 -30.46,-18.84 -30.03,-18.45 -29.61,-18.06 -29.18,-17.68 -28.75,-17.29 -28.33,-16.91 -27.9,-16.53 -27.48,-16.15 -27.05,-15.77 -26.62,-15.4 -26.2,-15.02 -25.77,-14.65 -25.35,-14.28 -24.92,-13.91 -24.49,-13.54 -24.07,-13.18 -23.64,-12.81 -23.22,-12.45 -22.79,-12.09 -22.36,-11.73 -21.94,-11.38 -21.51,-11.02 -21.09,-10.67 -20.66,-10.32 -20.23,-9.97 -19.81,-9.62 -19.38,-9.28 -18.96,-8.93 -18.53,-8.59 -18.1,-8.25 -17.68,-7.91 -17.25,-7.57 -16.83,-7.24 -16.4,-6.9 -15.97,-6.57 -15.55,-6.24 -15.12,-5.91 -14.7,-5.59 -14.27,-5.26 -13.84,-4.94 -13.42,-4.62 -12.99,-4.3 -12.57,-3.98 -12.14,-3.67 -11.71,-3.35 -11.29,-3.04 -10.86,-2.73 -10.44,-2.42 -10.01,-2.11 -9.58,-1.81 -9.16,-1.5 -8.73,-1.2 -8.31,-0.9 -7.88,-0.6 -7.45,-0.31 -7.03,-0.01 -6.6,0.28 -6.18,0.57 -5.75,0.86 -5.32,1.15 -4.9,1.43 -4.47,1.72 -4.05,2 -3.62,2.28 -3.19,2.56 -2.77,2.84 -2.34,3.11 -1.92,3.39 -1.49,3.66 -1.06,3.93 -0.64,4.2 -0.21,4.46 0.21,4.73 0.64,4.99 1.06,5.25 1.49,5.51 1.92,5.77 2.34,6.02 2.77,6.28 3.19,6.53 3.62,6.78 4.05,7.03 4.47,7.28 4.9,7.52 5.32,7.77 5.75,8.01 6.18,8.25 6.6,8.49 7.03,8.72 7.45,8.96 7.88,9.19 8.31,9.42 8.73,9.65 9.16,9.88 9.58,10.1 10.01,10.33 10.44,10.55 10.86,10.77 11.29,10.99 11.71,11.21 12.14,11.42 12.57,11.64 12.99,11.85 13.42,12.06 13.84,12.27 14.27,12.47 14.7,12.68 15.12,12.88 15.55,13.08 15.97,13.28 16.4,13.48 16.83,13.67 17.25,13.87 17.68,14.06 18.1,14.25 18.53,14.44 18.96,14.63 19.38,14.81 19.81,15 20.23,15.18 20.66,15.36 21.09,15.54 21.51,15.71 21.94,15.89 22.36,16.06 22.79,16.23 23.22,16.4 23.64,16.57 24.07,16.74 24.49,16.9 24.92,17.06 25.35,17.22 25.77,17.38 26.2,17.54 26.62,17.69 27.05,17.85 27.48,18 27.9,18.15 28.33,18.3 28.75,18.44 29.18,18.59 29.61,18.73 30.03,18.87 30.46,19.01 30.88,19.15 31.31,19.29 31.74,19.42 32.16,19.55 32.59,19.68 33.01,19.81 33.44,19.94 33.87,20.06 34.29,20.19 34.72,20.31 35.14,20.43 35.57,20.55 36,20.66 36.42,20.78 36.85,20.89 37.27,21 37.7,21.11 38.13,21.22 38.55,21.33 38.98,21.43 39.4,21.53 39.83,21.63 40.25,21.73 40.68,21.83 41.11,21.93 41.53,22.02 41.96,22.11 42.38,22.2 42.81,22.29 43.24,22.38 43.66,22.46 44.09,22.54 44.51,22.62 44.94,22.7 45.37,22.78 45.79,22.86 46.22,22.93 46.64,23 47.07,23.08 47.5,23.14 47.92,23.21 48.35,23.28 48.77,23.34 49.2,23.4 49.63,23.46 50.05,23.52 50.48,23.58 50.9,23.63 51.33,23.68 51.76,23.74 52.18,23.79 52.61,23.83 53.03,23.88 " class="primitive"/>
+            </g>
+          </g>
+        </g>
+        <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" id="img-1976de36-42">
+          <g class="color_RGB{N0f8}(1.0,0.647,0.0)" stroke-dasharray="none" stroke="#FFA500" id="img-1976de36-43">
+            <g transform="translate(77.39,60.61)" id="img-1976de36-44">
+              <path fill="none" d="M-53.03,-37.83 L-52.61,-37.38 -52.18,-36.93 -51.76,-36.49 -51.33,-36.04 -50.9,-35.6 -50.48,-35.16 -50.05,-34.72 -49.63,-34.28 -49.2,-33.85 -48.77,-33.41 -48.35,-32.98 -47.92,-32.55 -47.5,-32.12 -47.07,-31.69 -46.64,-31.27 -46.22,-30.85 -45.79,-30.43 -45.37,-30.01 -44.94,-29.59 -44.51,-29.17 -44.09,-28.76 -43.66,-28.34 -43.24,-27.93 -42.81,-27.52 -42.38,-27.12 -41.96,-26.71 -41.53,-26.31 -41.11,-25.91 -40.68,-25.5 -40.25,-25.11 -39.83,-24.71 -39.4,-24.31 -38.98,-23.92 -38.55,-23.53 -38.13,-23.14 -37.7,-22.75 -37.27,-22.37 -36.85,-21.98 -36.42,-21.6 -36,-21.22 -35.57,-20.84 -35.14,-20.46 -34.72,-20.09 -34.29,-19.71 -33.87,-19.34 -33.44,-18.97 -33.01,-18.6 -32.59,-18.23 -32.16,-17.87 -31.74,-17.51 -31.31,-17.14 -30.88,-16.78 -30.46,-16.43 -30.03,-16.07 -29.61,-15.72 -29.18,-15.36 -28.75,-15.01 -28.33,-14.66 -27.9,-14.32 -27.48,-13.97 -27.05,-13.63 -26.62,-13.28 -26.2,-12.94 -25.77,-12.61 -25.35,-12.27 -24.92,-11.93 -24.49,-11.6 -24.07,-11.27 -23.64,-10.94 -23.22,-10.61 -22.79,-10.29 -22.36,-9.96 -21.94,-9.64 -21.51,-9.32 -21.09,-9 -20.66,-8.68 -20.23,-8.36 -19.81,-8.05 -19.38,-7.74 -18.96,-7.43 -18.53,-7.12 -18.1,-6.81 -17.68,-6.51 -17.25,-6.21 -16.83,-5.9 -16.4,-5.6 -15.97,-5.31 -15.55,-5.01 -15.12,-4.72 -14.7,-4.42 -14.27,-4.13 -13.84,-3.84 -13.42,-3.55 -12.99,-3.27 -12.57,-2.99 -12.14,-2.7 -11.71,-2.42 -11.29,-2.14 -10.86,-1.87 -10.44,-1.59 -10.01,-1.32 -9.58,-1.05 -9.16,-0.78 -8.73,-0.51 -8.31,-0.24 -7.88,0.02 -7.45,0.28 -7.03,0.54 -6.6,0.8 -6.18,1.06 -5.75,1.32 -5.32,1.57 -4.9,1.82 -4.47,2.07 -4.05,2.32 -3.62,2.57 -3.19,2.81 -2.77,3.06 -2.34,3.3 -1.92,3.54 -1.49,3.78 -1.06,4.01 -0.64,4.25 -0.21,4.48 0.21,4.71 0.64,4.94 1.06,5.17 1.49,5.39 1.92,5.62 2.34,5.84 2.77,6.06 3.19,6.28 3.62,6.49 4.05,6.71 4.47,6.92 4.9,7.13 5.32,7.34 5.75,7.55 6.18,7.76 6.6,7.96 7.03,8.16 7.45,8.37 7.88,8.56 8.31,8.76 8.73,8.96 9.16,9.15 9.58,9.34 10.01,9.53 10.44,9.72 10.86,9.91 11.29,10.09 11.71,10.28 12.14,10.46 12.57,10.64 12.99,10.82 13.42,10.99 13.84,11.17 14.27,11.34 14.7,11.51 15.12,11.68 15.55,11.85 15.97,12.01 16.4,12.18 16.83,12.34 17.25,12.5 17.68,12.66 18.1,12.82 18.53,12.97 18.96,13.12 19.38,13.28 19.81,13.43 20.23,13.57 20.66,13.72 21.09,13.86 21.51,14.01 21.94,14.15 22.36,14.29 22.79,14.42 23.22,14.56 23.64,14.69 24.07,14.83 24.49,14.96 24.92,15.09 25.35,15.21 25.77,15.34 26.2,15.46 26.62,15.58 27.05,15.7 27.48,15.82 27.9,15.94 28.33,16.05 28.75,16.16 29.18,16.27 29.61,16.38 30.03,16.49 30.46,16.6 30.88,16.7 31.31,16.8 31.74,16.9 32.16,17 32.59,17.1 33.01,17.19 33.44,17.29 33.87,17.38 34.29,17.47 34.72,17.56 35.14,17.64 35.57,17.73 36,17.81 36.42,17.89 36.85,17.97 37.27,18.05 37.7,18.12 38.13,18.2 38.55,18.27 38.98,18.34 39.4,18.41 39.83,18.47 40.25,18.54 40.68,18.6 41.11,18.66 41.53,18.72 41.96,18.78 42.38,18.84 42.81,18.89 43.24,18.95 43.66,19 44.09,19.05 44.51,19.09 44.94,19.14 45.37,19.18 45.79,19.22 46.22,19.27 46.64,19.3 47.07,19.34 47.5,19.38 47.92,19.41 48.35,19.44 48.77,19.47 49.2,19.5 49.63,19.52 50.05,19.55 50.48,19.57 50.9,19.59 51.33,19.61 51.76,19.63 52.18,19.65 52.61,19.66 53.03,19.67 " class="primitive"/>
+            </g>
+          </g>
+        </g>
+        <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" id="img-1976de36-45">
+          <g transform="translate(76.25,60.4)" id="img-1976de36-46" class="color_trapdoor" stroke="#00BFFF" stroke-dasharray="none">
+            <path fill="none" d="M-41.02,-35.44 L-38.3,-23.34 -32.86,-18.94 -21.98,-10.88 -11.11,-3.54 -0.23,3.05 10.65,9.29 21.53,14.05 24.25,15.15 26.97,15.88 29.69,16.98 32.41,17.72 " class="primitive"/>
+          </g>
+          <g transform="translate(63.58,53.61)" id="img-1976de36-47" class="color_piston" stroke="#D4CA3A" stroke-dasharray="none">
+            <path fill="none" d="M-39.23,-30.12 L-31.07,-30.12 -28.35,-29.75 -25.63,-16.19 -22.91,-14.35 -20.19,-12.15 -17.47,-10.32 -14.75,-8.12 -12.03,-5.92 -9.31,-4.09 -6.59,-2.26 -3.87,-0.42 -1.15,1.41 1.57,3.61 4.29,5.08 7.01,6.54 9.73,8.37 12.45,9.84 15.17,11.31 17.89,13.14 20.61,14.24 23.33,15.71 26.05,16.81 28.77,18.27 31.49,19.01 34.21,20.47 " class="primitive"/>
+          </g>
+          <g transform="translate(81.47,66.57)" id="img-1976de36-48" class="color_piston2" stroke="#FF6DAE" stroke-dasharray="none">
+            <path fill="none" d="M-5.44,-2.75 L5.44,2.75 " class="primitive"/>
+          </g>
+          <g transform="translate(76.93,55.51)" id="img-1976de36-49" class="color_disp-td" stroke="#00B78D" stroke-dasharray="none">
+            <path fill="none" d="M-36.26,-32.38 L-33.54,-21.02 -22.66,-12.22 -11.79,-4.52 -0.91,2.81 9.97,9.41 20.85,15.27 31.73,19.67 42.61,22.97 " class="primitive"/>
+          </g>
+          <g transform="translate(66.88,50.49)" id="img-1976de36-50" class="color_disp-p" stroke="#BEA9FF" stroke-dasharray="none">
+            <path fill="none" d="M-34.37,-25.16 L-31.65,-23.33 -23.49,-16.36 -9.89,-5.73 0.99,1.97 6.43,5.27 9.15,7.1 11.87,8.93 14.59,11.13 22.75,15.53 33.63,20.66 " class="primitive"/>
+          </g>
+        </g>
+        <g class="geometry" id="img-1976de36-51">
+          <g stroke-width="0.3" id="img-1976de36-52">
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-53">
+              <g class="marker" id="img-1976de36-54">
+                <g transform="translate(100.5,71.15)" id="img-1976de36-55">
+                  <path d="M-0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 -0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-56">
+              <g class="marker" id="img-1976de36-57">
+                <g transform="translate(89.62,66.02)" id="img-1976de36-58">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-59">
+              <g class="marker" id="img-1976de36-60">
+                <g transform="translate(81.47,61.62)" id="img-1976de36-61">
+                  <path d="M-0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,-0 0.8,0.4 0.4,0.8 -0,0.4 -0.4,0.8 -0.8,0.4 -0.4,-0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-62">
+              <g class="marker" id="img-1976de36-63">
+                <g transform="translate(78.75,59.42)" id="img-1976de36-64">
+                  <path d="M-0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,-0 0.8,0.4 0.4,0.8 -0,0.4 -0.4,0.8 -0.8,0.4 -0.4,-0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-65">
+              <g class="marker" id="img-1976de36-66">
+                <g transform="translate(76.03,57.59)" id="img-1976de36-67">
+                  <path d="M-0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 -0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-68">
+              <g class="marker" id="img-1976de36-69">
+                <g transform="translate(73.31,55.75)" id="img-1976de36-70">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-71">
+              <g class="marker" id="img-1976de36-72">
+                <g transform="translate(67.87,52.46)" id="img-1976de36-73">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,-0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,-0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-74">
+              <g class="marker" id="img-1976de36-75">
+                <g transform="translate(56.99,44.76)" id="img-1976de36-76">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,-0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,-0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-77">
+              <g class="marker" id="img-1976de36-78">
+                <g transform="translate(43.39,34.13)" id="img-1976de36-79">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,-0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,-0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-80">
+              <g class="marker" id="img-1976de36-81">
+                <g transform="translate(35.23,27.16)" id="img-1976de36-82">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-p" fill-opacity="1" stroke="#FFFFFF" fill="#BEA9FF" id="img-1976de36-83">
+              <g class="marker" id="img-1976de36-84">
+                <g transform="translate(32.51,25.33)" id="img-1976de36-85">
+                  <path d="M0,-0.4 L0.4,-0.8 0.8,-0.4 0.4,0 0.8,0.4 0.4,0.8 0,0.4 -0.4,0.8 -0.8,0.4 -0.4,0 -0.8,-0.4 -0.4,-0.8  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-86">
+              <g class="marker" id="img-1976de36-87">
+                <g transform="translate(119.54,78.48)" id="img-1976de36-88">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-89">
+              <g class="marker" id="img-1976de36-90">
+                <g transform="translate(108.66,75.18)" id="img-1976de36-91">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-92">
+              <g class="marker" id="img-1976de36-93">
+                <g transform="translate(97.78,70.78)" id="img-1976de36-94">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-95">
+              <g class="marker" id="img-1976de36-96">
+                <g transform="translate(86.9,64.92)" id="img-1976de36-97">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-98">
+              <g class="marker" id="img-1976de36-99">
+                <g transform="translate(76.03,58.32)" id="img-1976de36-100">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-101">
+              <g class="marker" id="img-1976de36-102">
+                <g transform="translate(65.15,50.99)" id="img-1976de36-103">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-104">
+              <g class="marker" id="img-1976de36-105">
+                <g transform="translate(54.27,43.29)" id="img-1976de36-106">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-107">
+              <g class="marker" id="img-1976de36-108">
+                <g transform="translate(43.39,34.49)" id="img-1976de36-109">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_disp-td" fill-opacity="1" stroke="#FFFFFF" fill="#00B78D" id="img-1976de36-110">
+              <g class="marker" id="img-1976de36-111">
+                <g transform="translate(40.67,23.13)" id="img-1976de36-112">
+                  <path d="M-0.9,-0.36 L-0.9,0.36 -0.36,0.36 -0.36,0.9 0.36,0.9 0.36,0.36 0.9,0.36 0.9,-0.36 0.36,-0.36 0.36,-0.9 -0.36,-0.9 -0.36,-0.36  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston2" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-1976de36-113">
+              <g class="marker" id="img-1976de36-114">
+                <g transform="translate(86.9,69.32)" id="img-1976de36-115">
+                  <path d="M0,-0.9 L0.9,0 0,0.9 -0.9,0  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston2" fill-opacity="1" stroke="#FFFFFF" fill="#FF6DAE" id="img-1976de36-116">
+              <g class="marker" id="img-1976de36-117">
+                <g transform="translate(76.03,63.82)" id="img-1976de36-118">
+                  <path d="M0,-0.9 L0.9,0 0,0.9 -0.9,0  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-119">
+              <g class="marker" id="img-1976de36-120">
+                <g transform="translate(97.78,74.08)" id="img-1976de36-121">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-122">
+              <g class="marker" id="img-1976de36-123">
+                <g transform="translate(95.06,72.62)" id="img-1976de36-124">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-125">
+              <g class="marker" id="img-1976de36-126">
+                <g transform="translate(92.34,71.88)" id="img-1976de36-127">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-128">
+              <g class="marker" id="img-1976de36-129">
+                <g transform="translate(89.62,70.42)" id="img-1976de36-130">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-131">
+              <g class="marker" id="img-1976de36-132">
+                <g transform="translate(86.9,69.32)" id="img-1976de36-133">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-134">
+              <g class="marker" id="img-1976de36-135">
+                <g transform="translate(84.18,67.85)" id="img-1976de36-136">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-137">
+              <g class="marker" id="img-1976de36-138">
+                <g transform="translate(81.47,66.75)" id="img-1976de36-139">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-140">
+              <g class="marker" id="img-1976de36-141">
+                <g transform="translate(78.75,64.92)" id="img-1976de36-142">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-143">
+              <g class="marker" id="img-1976de36-144">
+                <g transform="translate(76.03,63.45)" id="img-1976de36-145">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-146">
+              <g class="marker" id="img-1976de36-147">
+                <g transform="translate(73.31,61.99)" id="img-1976de36-148">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-149">
+              <g class="marker" id="img-1976de36-150">
+                <g transform="translate(70.59,60.15)" id="img-1976de36-151">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-152">
+              <g class="marker" id="img-1976de36-153">
+                <g transform="translate(67.87,58.69)" id="img-1976de36-154">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-155">
+              <g class="marker" id="img-1976de36-156">
+                <g transform="translate(65.15,57.22)" id="img-1976de36-157">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-158">
+              <g class="marker" id="img-1976de36-159">
+                <g transform="translate(62.43,55.02)" id="img-1976de36-160">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-161">
+              <g class="marker" id="img-1976de36-162">
+                <g transform="translate(59.71,53.19)" id="img-1976de36-163">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-164">
+              <g class="marker" id="img-1976de36-165">
+                <g transform="translate(56.99,51.36)" id="img-1976de36-166">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-167">
+              <g class="marker" id="img-1976de36-168">
+                <g transform="translate(54.27,49.52)" id="img-1976de36-169">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-170">
+              <g class="marker" id="img-1976de36-171">
+                <g transform="translate(51.55,47.69)" id="img-1976de36-172">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-173">
+              <g class="marker" id="img-1976de36-174">
+                <g transform="translate(48.83,45.49)" id="img-1976de36-175">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-176">
+              <g class="marker" id="img-1976de36-177">
+                <g transform="translate(46.11,43.29)" id="img-1976de36-178">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-179">
+              <g class="marker" id="img-1976de36-180">
+                <g transform="translate(43.39,41.46)" id="img-1976de36-181">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-182">
+              <g class="marker" id="img-1976de36-183">
+                <g transform="translate(40.67,39.26)" id="img-1976de36-184">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-185">
+              <g class="marker" id="img-1976de36-186">
+                <g transform="translate(37.95,37.43)" id="img-1976de36-187">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-188">
+              <g class="marker" id="img-1976de36-189">
+                <g transform="translate(35.23,23.86)" id="img-1976de36-190">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-191">
+              <g class="marker" id="img-1976de36-192">
+                <g transform="translate(32.51,23.5)" id="img-1976de36-193">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_piston" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-1976de36-194">
+              <g class="marker" id="img-1976de36-195">
+                <g transform="translate(24.35,23.5)" id="img-1976de36-196">
+                  <path d="M-0.64,-0.64 L-0.64,0.64 0.64,0.64 0.64,-0.64  z" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-197">
+              <g class="marker" id="img-1976de36-198">
+                <g transform="translate(108.66,78.12)" id="img-1976de36-199">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-200">
+              <g class="marker" id="img-1976de36-201">
+                <g transform="translate(105.94,77.38)" id="img-1976de36-202">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-203">
+              <g class="marker" id="img-1976de36-204">
+                <g transform="translate(103.22,76.28)" id="img-1976de36-205">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-206">
+              <g class="marker" id="img-1976de36-207">
+                <g transform="translate(100.5,75.55)" id="img-1976de36-208">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-209">
+              <g class="marker" id="img-1976de36-210">
+                <g transform="translate(97.78,74.45)" id="img-1976de36-211">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-212">
+              <g class="marker" id="img-1976de36-213">
+                <g transform="translate(86.9,69.68)" id="img-1976de36-214">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-215">
+              <g class="marker" id="img-1976de36-216">
+                <g transform="translate(76.03,63.45)" id="img-1976de36-217">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-218">
+              <g class="marker" id="img-1976de36-219">
+                <g transform="translate(65.15,56.85)" id="img-1976de36-220">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-221">
+              <g class="marker" id="img-1976de36-222">
+                <g transform="translate(54.27,49.52)" id="img-1976de36-223">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-224">
+              <g class="marker" id="img-1976de36-225">
+                <g transform="translate(43.39,41.46)" id="img-1976de36-226">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-227">
+              <g class="marker" id="img-1976de36-228">
+                <g transform="translate(37.95,37.06)" id="img-1976de36-229">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_trapdoor" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-1976de36-230">
+              <g class="marker" id="img-1976de36-231">
+                <g transform="translate(35.23,24.96)" id="img-1976de36-232">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-1976de36-233">
+    <g transform="translate(18.63,80.32)" id="img-1976de36-234">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">0</text>
+      </g>
+    </g>
+    <g transform="translate(18.63,43.66)" id="img-1976de36-235">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">50</text>
+      </g>
+    </g>
+    <g transform="translate(18.63,7)" id="img-1976de36-236">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">100</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-1976de36-237">
+    <g transform="translate(8.81,41.66)" id="img-1976de36-238">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.35em" transform="rotate(-90,0, 2)">falldistance</text>
+      </g>
+    </g>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-1976de36-24">
+    <path d="M19.63,5 L132.42,5 132.42,82.32 19.63,82.32 " />
+  </clipPath>
+</defs>
+</svg>
