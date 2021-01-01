@@ -148,13 +148,18 @@ assemble as the other variations - but it is the most useful one.
 Our man Mytteri *really* likes TNT Dupers.
 
 * Easy to assemble and re-assemble
-* Good for flying machines or if you just want a big hole
+* Maximum Bang for making smallish holes
 
 ![Mytteri 2-way - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-2way-assembly.jpg)
 
 If you knock out the bottom front wall, you get a push duper.  If you knock out the bottom back
 wall, you get a pull duper.
 
-Or you just leave it as is and DUPE ALL THE TNT!!!
+This flexibility can be used to build flying machines relatively close to the ground.
+Start with TNT only on one side, duping only backwards.  Once the ground is further away,
+add second TNT.  Finally dupe in both directions.
 
-![Mytteri 2-way - In Action](/random-minecraft/assets/tnt-dupers/dupe-all-the-tnt.jpg)
+For me this works with 4 dupers at a time 12 blocks up.  More than that/closer to the ground 
+and you'll be re-building a lot.  Still a better love story than Twilight.
+
+![Mytteri 2-way - In Action](/random-minecraft/assets/tnt-dupers/mytteri-2way-operational.jpg)

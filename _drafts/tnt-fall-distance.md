@@ -2,28 +2,42 @@
 layout: post
 title:  "TNT Fall Distance"
 tags: redstone tnt
+use_mathjax: true
 ---
 
-## Horizontal TNT Duper Retained by Piston
+## Controlling Fall Height by Redstone
 
-![Duper retained by piston](/random-minecraft/assets/tnt-fall-height/duper-piston.jpg)
+The falling TNT is caught by some mechanism and only allowed to fall
+after some delay.  Pistons and trapdoors are popular choices.
+Trapdoors have the advantage that they can be water logged - if you
+screw up the timing and the TNT explodes in the water, your mechanism
+will not be damaged (it's not 100% foolproof though, e.g. 3.6s delay with
+the trapdoor example will damage the duper).
 
-Fall height is measured from the Shroomlights.  Example shows 2s delay.
 
-Delay is pure redstone delay on piston retraction.  The torch
-and the duper piston cancel each other out.  It takes an additional
-tick for the TNT to prime it seems!
+![Fall chute/piston](/random-minecraft/assets/tnt-fall-height/push_duper_retained_by_piston.jpg)
 
-Fall time is 4.1 - delay.  The fall height formula is the standard
-one from real life:  9.81/2*square(t)
+The torch and the duper piston cancel each other out - only orange cement counts as delay.
 
-| Delay | Destroyed Y | Fall time | Height according to formula |
-| 2.8 s | 3 - 11 | 1.3 s | 8.2 m |
-| 2.4 s | 11 - 17 | 1.7 s | 14.14 m |
-| 2 s | 17 - 25 | 2.1 s | 21.64 m |
-| 1.6 s | 26 - 34 | 2.5 s | 30.65 m |
-| 1.2 s | 38 - 44 | 2.9 s | 41.25 m |
+![Waterlogged trapdoor](/random-minecraft/assets/tnt-fall-height/pull_duper_waterlogged_trapdoor.jpg)
 
+We need a 2 tick pulse for the duper, the the push of the piston adds another tick.  This
+is cancelled out by the 3 tick repeater on the green cement.  Again, only orange cement
+counts as delay.
+
+If you want *really* low fall height, that green cement block should be obsidian as well.
+
+In both cases it takes the TNT another 0.1s to be primed.  So for delay $$d$$,
+fall time $$t$$ and fall height $$h$$ we get:
+
+$$t = 4.1 - d$$
+
+$$a = 9.81$$
+
+$$h = at^2$$
+
+
+![TNT Fall height by delay](/random-minecraft/assets/tnt-fall-height/fallheight.svg)
 
 ## Horizontal Dispenser w/ Honey Blocks
 

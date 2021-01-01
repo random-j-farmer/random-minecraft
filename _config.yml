@@ -36,4 +36,5 @@ minima:
       name: "Random J Farmer#8197"
       id: 225720541057646592
 
-    
+except:
+  julia/
