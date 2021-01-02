@@ -5,6 +5,29 @@ tags: redstone tnt
 use_mathjax: true
 ---
 
+###
+
+Dispenser, no top block: 74 m fall distance
+Dispenser, block on top does not let the TNT hop: 80 m fall distance
+Mytteri duper: 80 m fall distance
+
+$$ 9.81/2*4.05^2 ~ 80.45 $$
+
+Mytteri Duper + Torch + 5 4tick repeaters + piston: 44 gt total delay.
+expected fall distance of 16.79 m, but we get 22.5 m.
+
+$$ 9.81/2*2.15^2 ~ 22.67 $$
+
+Dispenser, top block, torch + 5 4 tick repeaters + piston: 44gt total delay, 
+expected fall distance 16.79 m, we get 26 m.
+
+$$ 9.81/2*2.3^2 ~ 25.95 $$
+
+
+So somehow, the act of stopping a falling TNT and letting it fall again adds some time
+to it's fuse timer:  0.3s for a duped TNT, 0.45s for a dispensed TNT.
+
+
 ## Controlling Fall Height by Redstone
 
 The falling TNT is caught by some mechanism and only allowed to fall

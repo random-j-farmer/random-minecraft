@@ -51,7 +51,13 @@ This variation is actually by Kades.  It dupes on pull.
 * Easy to assemble and re-assemble
 * Exact alignment with 2 walls and 1 open fence gate
 
-![Kades Duper - Assembly](/random-minecraft/assets/tnt-dupers/kades-assembly.jpg)
+
+<p float="left">
+<img title="Kades Duper - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/kades-assembly.jpg">
+<img title="Kades Duper - Operational" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/kades-operational.jpg">
+</p>
 
 Just put the TNT where you want it to fall and build the shape from there. 
 First push will grab the TNT, first pull will dupe.
@@ -59,8 +65,6 @@ First push will grab the TNT, first pull will dupe.
 To re-assemble if you lost the TNT or because you used a placeholder block until
 the timings seem ok:  Put the TNT below the wall, first push will grab the TNT,
 first pull will dupe.
-
-![Kades Duper - Operational](/random-minecraft/assets/tnt-dupers/kades-operational.jpg)
 
 There is a 2-way option by putting an additional block behind the slimeblock 
 that holds the coral fan.
@@ -73,7 +77,12 @@ for a flying machine I would consider other designs first.
 * Easy to assemble, can be reassembled
 * Exact alignment with 2 walls and 1 open fence gate
 
-![Mytteri Push Duper - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-push-assembly.jpg)
+<p float="left">
+<img title="Mytteri Push Duper - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/mytteri-push-assembly.jpg">
+<img title="Mytteri Push Duper - Operational" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/mytteri-push-operational.jpg">
+</p>
 
 When building, the TNT goes 1 position in front of it's fall position.
 First push will grab the TNT, next push will dupe.
@@ -82,7 +91,6 @@ Can be re-assembled by knocking out the connecting slimeblock (behind the mineca
 when the piston is extended, then retracting the piston.  Put TNT below wall, replace slimeblock.
 First push will grab the TNT, next push will dupe.
 
-![Mytteri Push Duper - Operational](/random-minecraft/assets/tnt-dupers/mytteri-push-operational.jpg)
 
 ### Other Variations
 
@@ -105,12 +113,15 @@ The height can be a problem though.
 * Easy to assemble and re-assemble
 * Good for controlling fall height with honey blocks
 
-![Rays Works Slim Duper - Assembly](/random-minecraft/assets/tnt-dupers/raysworks-push-assembly.jpg)
+<p float="left">
+<img title="Rays Works Slim Duper - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/raysworks-push-assembly.jpg">
+<img title="Rays Works Slim Duper - Operational" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/raysworks-push-operational.jpg">
+</p>
 
 From the fallchute, figure out the position for the wall and build the shape.
 TNT below the wall. Push once to assemble, next push will dupe.
-
-![Rays Works Slim Duper - Operational](/random-minecraft/assets/tnt-dupers/raysworks-push-operational.jpg)
 
 Borkon likes [Controlling TNT with honey](https://youtu.be/CacH1K9RJNE).  Me, I am not entirely
 convinced.  I like the more fine-grained control of pistons or waterlogged trapdoors.
@@ -129,23 +140,45 @@ below the TNT, you get a pull duper.  The TNT falls instead of shooting out.
 * Good for Tunnel Bores
 
 
-This one has so so many variations, watch the Eta740's video
+This one has so so many variations, watch Eta740's video
 on [Standard TNT Dupers](https://youtu.be/xs2XVyZ0tGY?t=130).  
+I am showing the Tunnel Bore variation, which is not as nice to
+assemble as the other variations - but it is the most useful one.
+
+
 Not so easy to align, so other options are better for stationary farms. But it's
 only 3 blocks high and can shoot out the TNT which makes it an option
 for Tunnel Bores - Ilmango uses it in his Industrial Tunnel Bore.
 
-![Eta Tunnel Bore - Assembly](/random-minecraft/assets/tnt-dupers/eta-bore-assembly.jpg)
+<p float="left">
+<img title="Eta Tunnel Bore - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/eta-bore-assembly.jpg">
+<img title="Eta Tunnel Bore - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/eta-bore-operational.jpg">
+</p>
 
-I am showing the Tunnel Bore variation, which is not as nice to
-assemble as the other variations - but it is the most useful one.
+## Ilmango Honey Dupers
 
-![Eta Tunnel Bore - Assembly](/random-minecraft/assets/tnt-dupers/eta-bore-operational.jpg)
+* Good for Tunnel Bores
+
+Ilmango has several TNT dupers that use honey instead of slimeblocks,
+of particular interest is the design for his Honey Tunnel Bore,
+because it is only 3 blocks high and has no sticky blocks in
+bottom position.
+
+<p float="left">
+<img title="Ilmango Honey Duper - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/ilmango-honey-assembly.jpg">
+<img title="Ilmango Honey Duper - Operation" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/ilmango-honey-operational.jpg">
+</p>
 
 
-## Ilmango Honey Duper
+Borkon uses it in his
+[Ridiculously Simple Tunnel Bore](https://www.youtube.com/watch?v=8-P9387oWWU) -
+I don't think this would work with an other duper.
 
-XXX WRITE ME
+
 
 ## Mytteri 2-way Duper
 
@@ -154,7 +187,12 @@ Our man Mytteri *really* likes TNT Dupers.
 * Easy to assemble and re-assemble
 * Maximum Bang for making smallish holes
 
-![Mytteri 2-way - Assembly](/random-minecraft/assets/tnt-dupers/mytteri-2way-assembly.jpg)
+<p float="left">
+<img title="Mytteri 2-way - Assembly" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/mytteri-2way-assembly.jpg">
+<img title="Mytteri 2-way - In Action" width="48%"
+  src="/random-minecraft/assets/tnt-dupers/mytteri-2way-operational.jpg">
+</p>
 
 If you knock out the bottom front wall, you get a push duper.  If you knock out the bottom back
 wall, you get a pull duper.
@@ -165,5 +203,3 @@ add second TNT.  Finally dupe in both directions.
 
 For me this works with 4 dupers at a time 12 blocks up.  More than that/closer to the ground 
 and you'll be re-building a lot.  Still a better love story than Twilight.
-
-![Mytteri 2-way - In Action](/random-minecraft/assets/tnt-dupers/mytteri-2way-operational.jpg)
