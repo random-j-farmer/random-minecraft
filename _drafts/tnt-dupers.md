@@ -166,6 +166,9 @@ of particular interest is the design for his Honey Tunnel Bore,
 because it is only 3 blocks high and has no sticky blocks in
 bottom position.
 
+In [Peaceful Challenge #6](https://youtu.be/zc3Vecx2xoU?t=120) Ilmango
+shows the design and also the design process.
+
 <p float="left">
 <img title="Ilmango Honey Duper - Assembly" width="48%"
   src="/random-minecraft/assets/tnt-dupers/ilmango-honey-assembly.jpg">
@@ -176,7 +179,8 @@ bottom position.
 
 Borkon uses it in his
 [Ridiculously Simple Tunnel Bore](https://www.youtube.com/watch?v=8-P9387oWWU) -
-I don't think this would work with an other duper.
+it needs the small size (and lack of sticky blocks in bottom position)
+of this design.
 
 
 

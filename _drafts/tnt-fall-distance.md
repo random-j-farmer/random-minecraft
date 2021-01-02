@@ -5,33 +5,14 @@ tags: redstone tnt
 use_mathjax: true
 ---
 
-###
-
-Dispenser, no top block: 74 m fall distance
-Dispenser, block on top does not let the TNT hop: 80 m fall distance
-Mytteri duper: 80 m fall distance
-
-$$ 9.81/2*4.05^2 ~ 80.45 $$
-
-Mytteri Duper + Torch + 5 4tick repeaters + piston: 44 gt total delay.
-expected fall distance of 16.79 m, but we get 22.5 m.
-
-$$ 9.81/2*2.15^2 ~ 22.67 $$
-
-Dispenser, top block, torch + 5 4 tick repeaters + piston: 44gt total delay, 
-expected fall distance 16.79 m, we get 26 m.
-
-$$ 9.81/2*2.3^2 ~ 25.95 $$
+* [Controlling Fall Distance with Redstone](#controlling-fall-distance-with-redstone)
+* [Controlling Fall Distance with Honey]
 
 
-So somehow, the act of stopping a falling TNT and letting it fall again adds some time
-to it's fuse timer:  0.3s for a duped TNT, 0.45s for a dispensed TNT.
+## Controlling Fall Distance with Redstone
 
-
-## Controlling Fall Height by Redstone
-
-The falling TNT is caught by some mechanism and only allowed to fall
-after some delay.  Pistons and trapdoors are popular choices.
+The falling TNT is caught by some mechanism and allowed to fall
+again after some delay.  Pistons and trapdoors are popular choices.
 Trapdoors have the advantage that they can be water logged - if you
 screw up the timing and the TNT explodes in the water, your mechanism
 will not be damaged (it's not 100% foolproof though, e.g. 3.6s delay with
@@ -53,11 +34,10 @@ the trapdoor example will damage the duper).
      src="/random-minecraft/assets/tnt-fall-distance/dispenser-trapdoor.jpg">
 </p>
 
-Only repeaters on orange concrete count as delay (in the first picture, the torch and repeater
-cancel each other out; in the second case the 3-tick repeater (green concrete) is canceled
-by the 2 ticks repeater and the wait until the piston retracts).
+Only repeaters on orange concrete count as delay.
 
-If you want *really* low fall height, that green cement block on Kades Duper should be obsidian as well.
+If you want *really* low fall height, that green cement block on the Kades Duper
+should be obsidian as well.
 
 In both cases it takes some additional time until the TNT is primed.  So for delay $$d$$,
 the fall time is $$t = 4.1 - d$$ for dupers and $$t = 4.4 - d$$ for dispensers.
@@ -88,6 +68,18 @@ The Piston/Fall Chute version blows up if you go over 2.8 s.
           <td id="calculatorResultDispenser"></td>
      </tr>
 </table>
+
+### On the magic 4.1/4.4 values
+
+I don't fully understand what is going on here.  If you let the TNT fall without catching it,
+it reaches its expected fall distance assuming a 4 second fuse time.  As soon as you catch it
+and let it fall again, it suddenly falls for longer than expected, and TNT
+from dispensers falls even longer.  Dispensers seem to take 3 gt longer to prime than dupers,
+but sad the difference is more than that.
+
+It is consistent though, so I am sharing my method of predicting fall distance.
+Which is to only count magic "orange" repeaters as delay, and subtracting
+from magic constants.
 
 ## Horizontal Dispenser w/ Honey Blocks
 
