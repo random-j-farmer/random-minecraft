@@ -3,6 +3,13 @@ title: TNT Dupers
 layout: post
 tags: redstone tnt
 ---
+
+> As of 1.16, TNT dupers seem on their way out.  Why write about them now?
+> [Last Chance to See](https://en.wikipedia.org/wiki/Last_Chance_to_See).
+> In the next year or so, I plan to dupe all the TNT and tunnel all the Bores.
+> \#NewYearsResolution
+
+
 ## How do TNT Dupers work?
 
 A BUDed TNT gets a block update immediately before it is
@@ -45,7 +52,7 @@ TNT with 2 walls and a fence gate.  This is great for stationary farms.
 
 ### The Kades Duper
 
-This variation is actually by Kades.  It dupes on pull.
+This variation is by Kades.  It dupes on pull.
 
 * Easy to figure out the correct position
 * Easy to assemble and re-assemble
@@ -69,9 +76,9 @@ first pull will dupe.
 There is a 2-way option by putting an additional block behind the slimeblock 
 that holds the coral fan.
 
-### The Mytteri Push Duper
+### The Mytteri Duper
 
-The famous one.  Dupes on push.  For a stationary farm I prefer the pull duper,
+The famous one.  Dupes on push.  For a stationary farm I prefer the Kades duper,
 for a flying machine I would consider other designs first.
 
 * Easy to assemble, can be reassembled
