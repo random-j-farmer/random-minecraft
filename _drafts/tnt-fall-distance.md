@@ -1,31 +1,30 @@
 ---
 layout: post
-title:  "TNT Fall Distance"
+title:  "Controlling TNT Fall Distance with Redstone"
 tags: redstone tnt
 use_mathjax: true
 ---
 
-* [Controlling Fall Distance with Redstone](#controlling-fall-distance-with-redstone)
-* [Controlling Fall Distance with Honey]
-
-
-## Controlling Fall Distance with Redstone
-
-The falling TNT is caught by some mechanism and allowed to fall
+Falling TNT is caught by some mechanism and is allowed to fall
 again after some delay.  Pistons and trapdoors are popular choices.
-Trapdoors have the advantage that they can be water logged - if you
-screw up the timing and the TNT explodes in the water, your mechanism
-will not be damaged (it's not 100% foolproof though, e.g. 3.6s delay with
-the trapdoor example will damage the duper).
+
+
+#### Designs using a retracting piston
 
 <p float="left">
-<img alt="Rays Works / Piston" width="48%"
-     src="/random-minecraft/assets/tnt-fall-distance/ray-piston.jpg">
 <img alt="Mytteri / Piston" width="48%"
      src="/random-minecraft/assets/tnt-fall-distance/mytteri-piston.jpg">
 <img alt="Dispenser / Piston" width="48%"
      src="/random-minecraft/assets/tnt-fall-distance/dispenser-piston.jpg">
 </p>
+
+* The input signal is typically long and is negated to control the piston
+* Other push dupers can be substituted, e.g. a duper that ejects the
+  TNT forward into a fall chute.
+* Good for long fall distances
+
+
+#### Designs using a trapdoor
 
 <p float="left">
 <img alt="Kades / Trapdoor" width="48%"
@@ -34,69 +33,110 @@ the trapdoor example will damage the duper).
      src="/random-minecraft/assets/tnt-fall-distance/dispenser-trapdoor.jpg">
 </p>
 
-Only repeaters on orange concrete count as delay.
+* The input signal is typically a 3 or 4 gt pulse.  The simplified calculator
+  below assumes a 4 gt signal
+* The water will not flow out because the trapdoor is only open for 2 game ticks
+* Good for short fall distances - you can blow up blocks
+  right up to the obsidian/waterlogged trapdoor.
 
-If you want *really* low fall height, that green cement block on the Kades Duper
-should be obsidian as well.
+If you waterlog the trapdoor you need blocks (preferably obsidian) all around it.
+This means the TNT must be aligned in all 4 directions, which makes the duper
+tricky to build.  I recommend pushing the minecart and rail into place.
 
-In both cases it takes some additional time until the TNT is primed.  So for delay $$d$$,
-the fall time is $$t = 4.1 - d$$ for dupers and $$t = 4.4 - d$$ for dispensers.
+### Simplified method for predicting fall distance
 
-$$a = 9.81$$
+* Only repeaters on orange concrete count as delay
+* Only works for the contraptions given above or contraptions
+  with identical timings
+* Eyeball the fall distance from the provided chart
+  or use the calculator
 
-$$h = at^2$$
+<table>
+     <caption>Simplified Fall Distance</caption>
+     <tr>
+          <th>Delay in seconds<br>(Orange Cement)</th>
+          <th>Fall distance<br>(Push Duper/Piston)</th>
+          <th>Fall distance<br>(Pull Duper/Trapdoor, Dispenser TD/Piston)</th>
+     </tr>
+     <tr>
+          <td><input id="simpleCalculatorInput" type="number" min="0" max="4" step="0.1" value="2.0"></td>
+          <td id="simpleCalculatorResultMytteriPiston"></td>
+          <td id="simpleCalculatorResultKadesTrapdoor"></td>
+     </tr>
+</table>
 
 
 ![TNT Fall height by delay](/random-minecraft/assets/tnt-fall-distance/tnt-fall-distance.svg)
 
-The line in red is the plotted formula.  Generally you need at least 0.5 seconds of delay
-or the TNT falls straight through to it's max fall height of 77 blocks.  With the trapdoor
-you can use longer delays (up to 3.2 seconds) although you'll have to make that green cement
-block obsidian.  With 3.2 s delay, all the blocks up to the obsidian are destroyed.
+* Orange line: calculated fall distance for Mytteri Duper with retracting Piston
+* Red line: calculated fall distance for Kades Duper with waterlogged trapdoor
+  or dispenser with either method
+* The points are measured fall distances for the various methods
+* Points above 75m happen when the TNT is never caught, so it falls it's standard 77 blocks
+* "boom" indicates that the delay was too short - the contraption was damaged
 
-The Piston/Fall Chute version blows up if you go over 2.8 s.
+### Exact method for predicting fall distance
+
+The simplified calculator only works if your mechanism has the exact same
+timings as the ones the calculator is made for.  If your design is different 
+or directly activated by user input, the timings may be different.
+
+If you can figure out the amount of fuse left on the TNT in the exact moment
+it begins to fall, you can use the calcular below which is always correct.
+
+* Use `tick freeze` in carpet mod
+* Activate the mechanism
+* `tick step` until the TNT is released from the piston/trap door again.
+  Use `data get entity @e[type=tnt,sort=nearest,limit=1]` and look
+  for the tick in which it falls 0.04m.  With trapdoors, you have to look
+  at the change in y-coordinate, with pistons look at `fallHeight`
+* Write down the repeater setting and the measured remaining fuse
+* Using the Exact Fall Distance calculator, figure out the change
+  in delay you need (increasing the delay will *shorten* the fuse)
 
 <table>
+     <caption>Exact Fall Distance</caption>
      <tr>
-          <th>Delay in seconds</th>
-          <th>Fall distance (Duper)</th>
-          <th>Fall distance (Dispenser)</th>
+          <th>Fuse time (gt)</th>
+          <th>Fall distance</th>
      </tr>
      <tr>
-          <td><input id="calculatorInput" type="number" min="0" max="4" step="0.1" oninput="calculatorOnInput(event)"></td>
-          <td id="calculatorResultDuper"></td>
-          <td id="calculatorResultDispenser"></td>
+          <td><input id="exactCalculatorInput" type="number" min="0" max="79" step="1" value="39"></td>
+          <td id="exactCalculatorResult"></td>
      </tr>
 </table>
 
-### On the magic 4.1/4.4 values
-
-I don't fully understand what is going on here.  If you let the TNT fall without catching it,
-it reaches its expected fall distance assuming a 4 second fuse time.  As soon as you catch it
-and let it fall again, it suddenly falls for longer than expected, and TNT
-from dispensers falls even longer.  Dispensers seem to take 3 gt longer to prime than dupers,
-but sad the difference is more than that.
-
-It is consistent though, so I am sharing my method of predicting fall distance.
-Which is to only count magic "orange" repeaters as delay, and subtracting
-from magic constants.
-
-## Horizontal Dispenser w/ Honey Blocks
-
-| Honey blocks | Destroyed Y |
-| 1  | 50 - 57 |
-| 2 | 38 - 43 |
-| 3 | 25 - 30 |
-| 4 | 16 - 20 |
-| 5 | 8 - 13 |
 
 
-## Horizontal TNT Duper w/ Honey Blocks
+### Dupers vs Dispensers
 
-| Honey blocks | Destroyed Y |
-| 3x2 Honey | 48 - 54 |
-| 3x3 Honey | 33 - 39 |
-| 3x4 Honey | 22 - 27 |
-| 3x5 Honey | 14 - 19 |
+As you may have noticed, fall distance is different for dupers and dispensers.
 
+With a dispenser, the TNT is primed 4 gt after the dispenser was activated.
 
+With a duper, the TNT is primed the instant the piston starts moving.
+
+So in general, TNT will fall shorter distances from a push duper.  A pull duper dupes
+at the end of the signal, and the most convenient signal is 4 game ticks,
+so pull dupers typically have the same fall distance as a dispenser.
+
+### Direct User Activation
+
+User input is handled specially by the game, it is processed *before*
+redstone.  So I figured I would see if that makes a difference,
+and it does.
+
+A push duper will prime the TNT one game tick *later* when activated
+directly by a lever or button, and the TNT falls for 1 game tick longer.
+
+That came as a surprise to me, I would have expected the opposite.
+
+In the other cases, direct user activation does not make a difference.
+Dispensers always take 4 gt to prime the TNT.  And pull based
+dupers dupe at the falling edge of the signal. While it might
+be possible to set one up so that is directly powered,
+there are easier ways to get a 1 gt delay.
+
+<script async
+  src="/random-minecraft/assets/tnt-fall-distance/calculator.js"
+  ></script>
