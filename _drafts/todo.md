@@ -15,3 +15,17 @@ layout: post
   to 16 blocks, it's 12-16 actually). so length around 45 m for double speed line,
   above that use water streams.
 
+
+## Litematica for Dummies
+
+### Move
+
+* Make a selection, origin will be your location
+* Change your location, e.g. move 2 blocks to the left
+* Switch Litematica-mode to Move
+* Hotkey for "Move entire Selection" (no default)
+
+
+### Fill
+
+https://www.reddit.com/r/Minecraft/comments/fbwhyv/need_help_with_litematica_for_the_fill_and/fj8mbqs/

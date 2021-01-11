@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Understanding the Ilmango Tunnel Bore
-tags: redstone tnt
+tags: slimestone tnt tunnelbore
 use_mathjax: true
 ---
 
@@ -21,22 +21,6 @@ The delay between the dupers and the launchers is crucial. It is
 provided by a flying machine that is returned by a single stepping
 return station.
 
-## Slimeblocks vs Honeyblocks
-
-Slimeblocks are more powerful than Honeyblocks - you have much more
-possibilities in arranging your circuit.  This additional power
-comes at a cost:  understanding the circuit becomes harder.
-
-So I am going to prefer Honeyblock over Slimeblocks, unless I have
-a compelling reason not to.  In the following screenshots,
-a Honeyblock means "nothing special here, go on", while a Slimeblock
-means "uh-uh, this is not just a sticky block".
-
-I am not going to worry about efficency or account for every
-slimeball used.  If the design becomes simpler by using a
-Slimeblock I will do so.
-
-
 ## Flying Machine Timings
 
 <p float="left">
@@ -46,36 +30,36 @@ Slimeblock I will do so.
      alt="Flying machine: getting exact timings for the duper activation" width="48%">
 </p>
 
-The images show the flying machine used to time the Ilmango Tunnel
-bores.  It is a standard 2 way Flying Machine in a Honeblock
+The images show the flying machine I used to simulate the
+one in the tunnel bores.  It is a standard 2 way Flying Machine in a Honeblock
 configuration.  The payload is the Redstone block that will
 activate the lamp, and it has an additional observer that will
 activate the return station.
 
-In general, such a 2 way flying machine takes 5 game ticks for
-one half step.
+In general, such a 2 way flying machine takes 10 game ticks per
+step, but this breaks down into 4 gt for the push and 6
+game ticks for the pull.
 
-$$ t_{travel} = (5 + 5)d = 10d $$
+$$ t_{travel} = (6 + 4)d = 10d $$
 
 $$ t_{act} = 9d + 4 $$
 
 $$ t_{deact} = 9d + 2 $$
 
 So here, the flying machine will fully arrive at the return 
-station after 30 game ticks,
-but the lamp will turn on after 24 game ticks.   This is the time
-when Block 36 turns back into a Redstone block - although it will
-take another game tick for the back piston to finish retracting.
+station after 30 game ticks, but the redstone block is
+already in place for the last 6 game ticks -
+the lamp will turn on after 24 game ticks.
 
-The observer activited by the return station will fire one
+The observer activated by the return station will fire one
 game tick earlier than the one that would continue the current direction
-of travel. So this half-step only takes 4 game ticks.
+of travel. So the last step is cut short by one game tick.
 
 Now, on the way back the flying machine will travel one block further
 and remove the powersource of the instant-wire piston.  This is
-$$t_{deact}$$ above, and it occurs 2 game ticks earlier than activation -
-this happens when the redstone block turns into Block 36 at the moment
-the piston fires.
+$$t_{deact}$$ above, and it occurs after 2 game ticks into the step.
+The observer observes, and as the piston begins to push the redstone
+block turns into Block 36 which instantly cuts the power.
 
 So the total time to travel 3 blocks in one direction and deactivating the powersource
 4 blocks in the other direction is 61 game ticks.
@@ -121,14 +105,13 @@ The timings are critical because they determine the Y-position of the explosion.
 ![Timing the catapult](/random-minecraft/assets/ilmango-tunnel-bore/timing-the-catapult.jpg)
 
 The contraption in the image has the same timings and height as the catapult 
-used in the Ilmango Tunnel Bores - to horizontal piston fires 2 game ticks 
-after the vertical one.  Also the upper slimeblock
-is 4m above the lower one, although it as to be further back because the design is
-stationary.
+used in the Ilmango Tunnel Bores.  The upper piston needs 2 gt delay because
+here it moves the block on the push.  Also the upper slimeblock needs
+to be 1m back because the lower part is not moving.
 
 I want to find the delay that gives the most central explosion.  And I want to obtain
 the fuse time of the TNT in the moment the vertical piston fires (this is when
-the redstone lights up/when the observers in the catapult fire).
+the redstone lights up/when the observers in the catapult flash red).
 
 
 | Delay | TNT fuse on catapult activation / explosion position |
@@ -162,90 +145,34 @@ vertical center of the explosion.
 
 65 game ticks of delay seems to be pretty centered, I guess it did not
 seem that way because the eye has a tendency to follow the movement.
-This seems like an ideal value for a centered design and
-that makes me very happy - I just checked some tunnel bores I
-already have, and they all show the magic fuse time of 14.
-The timings seemed OK, but I always wondered if it was *exactly* right.
+This seems like an ideal value for a centered design.
 
 
-TODO
-
-
-## Timings
+## Timings for the Whole Machine
 
 * gt 1: duper single steppers begin retracting
 * gt 3: flying machine observer fires
-* gt 9: duper dupes (single stepper + extension delay), tnt fuse=79
+* gt 9: duper dupes (single stepper + extension delay), tnt fuse=79.
+  from here on, $$ gt = 9 + (79 - fuse) = 88 - fuse $$
 * gt 27: flying machine activates return station
 * gt 31: flying machine finished retraction, observer starting in other direction fires
+* gt 62: flying machines removes redstone block for catapult stepper
+* gt 66: fuse=22, single stepper observer fires
+* gt 70: fuse=18, catatapult extension observer fires
+* gt 74: MAGIC FUSE = 14, catapult observers fire
 
+![Verifying the fuse time](/random-minecraft/assets/ilmango-tunnel-bore/verifying-fuse-time.jpg)
 
-* gt 61: flying machines removes redstone block for catapult stepper
-* gt 63: flying machine has returned
+The pistons in the catapult are activated when the observers flash red.
+This is the easiest method of verifying the timings for the machine:
+`tick freeze`, activate machine, `tick step` until the observers flash
+and verify that the TNT has a fuse time of 14.
 
+61 game ticks of delay come from the flying machine, where do the additional
+4 come from?
 
-Flying machine 3 blocks: 3*8 = 24 gt?
-
-Flying machine delay: 7*8 + 4 = 60 gt????
-
-## The TNT Launcher
-
-2 observers (1 observing the other) activate a sticky piston
-with a slime block.  Before the slime block is some
-pushable non-sticky block (e.g. glazed terracotta or a
-jack-o-lantern), then comes a wall to stop the TNT.
-
-4 blocks above the first slimeblock is another slimeblock
-that will be retracted by another piston via some connecting
-sticky blocks.
-
-When the duper is activated, it moves forward closing the
-gap between duper and laucher.  The TNT slides forward
-and comes to a stop when it hits the wall.  2 game ticks later,
-the lower piston launches the TNT upwards, and another 2 game
-ticks later the upper slimeblock is retracted by the other piston -
-this launches the TNT forward.
-
-
-#### The 2 Observer Trick
-
-This trick may not be obvious at first:  2 observers
-where 1 is observer is observing the other one.  In a stationary design,
-this would simply propagate the signal with additional delay.
-But when moved, both observers will fire, and the second one will then observe
-the first one and fire again.  So you get a 2 gt on, 2 gt off, 2 gt on signal.
-
-This will cause a piston to fire twice - a sticky piston will
-first eject its block, then retract it again.
-
-Also this can be used to block other pistons from extending,
-e.g. to stop a flying machine or to get a piston in a BUDed state.
-
-
-## The Dupers
-
-Ilmango recently switched from using a 2 wide duper design
-to his newer 1 wide honeblock duper.  He still uses the
-older design in his "Industrial Mining Machine" video.
-If you start building your own Tunnel Bores, I would suggest
-switching to the newer design, it just gives you more
-space to work with.
-
-Behind every launcher is a duper.  When they
-are spaced out on every 5th block, you get
-a tunnel that is at least 7 blocks high.  If you space
-them out more than that, the ceiling starts to come down.
-
-
-
-XXX link to dupers
-
-### Single-Step Insta-Wire
-
-
-
-
-
-* 14 blocks of space free in front of machine
-* tnt duper every 5th block (duper - 4 - duper)
-* catapult 4 blocks up
+The instant wire for duper and catapult is identical,
+but the duper is activated the instant the duper
+extension starts pushing.  But the catapult observers
+add an additional 2 game ticks after the extension
+has completed the push, which also takes 2 game ticks.
