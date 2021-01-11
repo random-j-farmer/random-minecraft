@@ -4,6 +4,25 @@ title:  Building an Ilmango Tunnel Bore
 tags: slimestone tnt tunnelbore
 use_mathjax: true
 ---
+> Q: "I built this in survival and it blew up"
+> 
+> A: Yes, these tunnel bores will blow up if anything goes wrong.
+>    Hit Ancient Debris, MACHINE GO BOOM.  Timing is off,
+>    MACHINE GO BOOM.  Click Noteblock twice,
+>    MACHINE GO BOOM.  Minecart slides back on the activator rail
+>    when using the Minecart option, MACHINE GO BOOM.  
+>
+>    On the positive side, they make a big hole, they can be modified
+>    to make an even bigger hole and you don't need Ancient Debris
+>    to build them, because I hate mining for Ancient Debris.
+>
+>    You should
+>    probably learn to use them in Creative, although learning in
+>    survival might re-inforce the lesson, so it's all good.
+>
+> Q: "But my tunnel bore!  And my materials are all gone!"
+>
+> A: Haha! MACHINE GO BOOM!
 
 All the components here are lifted from Ilmangos designs,  I merely re-arrange them
 according to my goals.
@@ -21,7 +40,7 @@ Also I will prefer Honeyblocks over Slimeblocks when I have a choice -
 I find this easier to understand as there is less potential for
 funny business.
 
-### Catapult and Duper
+## Catapult and Duper
 
 I prefer the newer 1-wide duper but using slimeblock
 everywhere, this lets me push in the rail and cart with the piston
@@ -84,14 +103,14 @@ space between duper and glazed terracotta.  This allows the flying machine to pu
 that redstone block away, then it runs into the duper and is stopped by the push limit.
 
 
-### The 2-Way Flying Machine
+## The 2-Way Flying Machine
 
 ![2-way Flying Machine](/random-minecraft/assets/ilmango-tunnel-bore/2-way-fm.jpg)
 
 Standard flying machine with an additional observer to trigger the return station
 and with a Redstone Block payload that will single-step the return station.
 
-### Single-Stepping Return Station
+## Single-Stepping Return Station
 
 ![Single Step Return Station](/random-minecraft/assets/ilmango-tunnel-bore/return-station.jpg)
 
@@ -105,7 +124,7 @@ This activates the observer in the 2-way flying machine that
 will send it on its way back.
 
 
-### The Control Module
+## The Control Module
 
 The tunnel bore is complete and can be used already, but another single-step
 flying machine makes it more convenient.  You can go as simple or fancy
@@ -121,16 +140,17 @@ up to ride along.
 
 ![Control Module - Survival Option](/random-minecraft/assets/ilmango-tunnel-bore/control-module-survival.jpg)
 
-### Extending the Tunnel Bore
+## Extending the Tunnel Bore
 
 Once you've come this far, extending the tunnel bore is relatively easy.
 You simply extend the instawires and build the duper and catapult
 extensions.  Note that the first module is slightly different,
 but from here on all extensions are the same.
 
-This design works with a duper on every 5th block or on every 7th.
+This variation works with a duper on every 5th block or on every 7th.
 When blasting through netherrack you could space them out even more,
-but if you hit basalt or blackstone you'd have to remove the left over blocks.
+but if you hit basalt or blackstone you'd have to remove the left over blocks
+or MACHINE GO BOOM.
 
 ![More Dupers](/random-minecraft/assets/ilmango-tunnel-bore/more-dupers.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: TNT Dupers
 layout: post
-tags: redstone tnt
+tags: slimestone tnt
 ---
 
 > As of 1.16, TNT dupers seem on their way out.  Why write about them now?
