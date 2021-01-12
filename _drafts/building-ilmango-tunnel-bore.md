@@ -44,7 +44,8 @@ funny business.
 
 I prefer the newer 1-wide duper but using slimeblock
 everywhere, this lets me push in the rail and cart with the piston
-that is already in place.
+that pushes the duper (this is not an option with honey blocks,
+because you can not put a rail on a honey block).
 
 By using a slimeblock in the bottom position,
 the duper can be used to stop the flying machine
@@ -80,7 +81,6 @@ This can also be used to block other pistons from extending,
 e.g. to stop a flying machine or to get a piston in a BUDed state.
 
 
-
 ### Single-Step Insta-Wire
 
 ![Single Step Instawire](/random-minecraft/assets/ilmango-tunnel-bore/single-step-instawire.jpg)
@@ -89,7 +89,7 @@ Lots of ways to set this one up.  The important thing is to keep the same delay 
 the duper and catapult.  I choose to fire the extensions on the instawire extension,
 this makes the design more flexible by preserving as much push limit as possible.
 
-The position is higher than would be natural, this keeps the instawire in the 3 high zone
+The position is higher than would be natural, this keeps the instawire in the 3 high
 central zone.
 
 ### Stopping the 2-way Flying Machine

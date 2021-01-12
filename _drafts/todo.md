@@ -3,6 +3,12 @@ title: Todo
 layout: post
 ---
 
+* hopper lag
+* fair item distribution using droppers
+* auto smelters
+* potion brewers
+* single step flying machines, pull-push vs push pull
+* starter base + farms
 * Auto-Crafting: https://www.youtube.com/watch?v=IJTeOBo6fMk , also Gnembon video
 * Bamboo Farm Dimensions:  full hopper minecart into hopper 2.13 min,
   double speed 1.06 min.  so 3 pickups vs 5 pickups until items despawn,

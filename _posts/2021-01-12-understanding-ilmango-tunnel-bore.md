@@ -147,10 +147,6 @@ vertical center of the explosion.
 seem that way because the eye has a tendency to follow the movement.
 This seems like an ideal value for a centered design.
 
-## Single-Stepping Insta-Wire
-
-TODO
-
 
 ## Timings for the Whole Machine
 
