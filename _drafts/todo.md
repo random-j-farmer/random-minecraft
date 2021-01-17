@@ -20,12 +20,25 @@ layout: post
   every 4096 game ticks on average, approx 50 minutes (note they don't all grow
   to 16 blocks, it's 12-16 actually). so length around 45 m for double speed line,
   above that use water streams.
+* short signals:  observing chained 1tick repeaters that get an alternating 4gt signal
+  gives a 6gt signal: 2 gt on, 4 gt off. last repeater in chain stays on for duration ==> compare redstone light (instant on, 4 gt to turn off)
+* general mob farm at mob cap + bamboo farm
+* finding all the end portals
+* finding all the nether fortresses
+* finding all the witch huts
+* early game: starter base
+* early game: iron farm
+* early game: villager trading
+* nether busting
+* main base: storage + cobble + tree farm + cement maker. MSPT
+* how to use ilmangos mining machine world download
 
 
 ## Litematica for Dummies
 
 ### Move
 
+* Place down block and stand there
 * Make a selection, origin will be your location
 * Change your location, e.g. move 2 blocks to the left
 * Switch Litematica-mode to Move
@@ -35,3 +48,7 @@ layout: post
 ### Fill
 
 https://www.reddit.com/r/Minecraft/comments/fbwhyv/need_help_with_litematica_for_the_fill_and/fj8mbqs/
+
+* Alt-Middleclick to select block to use
+* Shift-Middleclick to select block to replace
+* Execute Operation

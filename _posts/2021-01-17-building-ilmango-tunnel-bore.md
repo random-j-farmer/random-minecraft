@@ -36,13 +36,13 @@ In particular this means that I don't use Ilmango's trademark
 "Devil's Horns" Double Catapults.  I just use 1 single catapult
 per duper.  With the 1 wide duper, there is plenty of space.
 
-Also I will prefer Honeyblocks over Slimeblocks when I have a choice -
-I find this easier to understand as there is less potential for
-funny business.
+I will prefer Honeyblocks over Slimeblocks when I have a choice -
+I find this easier to understand as Honeyblocks are less
+powerful.
 
 ## Catapult and Duper
 
-I prefer the newer 1-wide duper but using slimeblock
+I prefer the newer 1-wide duper but using Slimeblocks
 everywhere, this lets me push in the rail and cart with the piston
 that pushes the duper (this is not an option with honey blocks,
 because you can not put a rail on a honey block).
