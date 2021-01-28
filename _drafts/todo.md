@@ -3,7 +3,6 @@ title: Todo
 layout: post
 ---
 
-* hopper lag
 * fair item distribution using droppers
 * auto smelters
 * potion brewers
@@ -32,7 +31,6 @@ layout: post
 * nether busting
 * main base: storage + cobble + tree farm + cement maker. MSPT
 * how to use ilmangos mining machine world download
-
 
 ## Litematica for Dummies
 
