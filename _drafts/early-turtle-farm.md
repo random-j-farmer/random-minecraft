@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Early Game Turtle Farm
+tags: early-game turtle farm
 ---
 
 Early game turtle farms are extremely useful.
@@ -18,6 +19,8 @@ Later in the game, I've rarely found a use for turtle shells.  An enchanted diam
 helmet is a better choice; and I personally do not think that a Potion of the Turtle Master
 is worth the inventory slot.
 
+I recommend building this right at the start of the game, or not build it at all.
+
 ## Well Known Designs
 
 [Turtle farming](https://minecraft.gamepedia.com/Tutorials/Turtle_farming) has been
@@ -32,7 +35,7 @@ and I don't like flooding the spawn chunks with turtles.
 ## The Pathfinding Approach
 
 I like using path finding in my farms, and turtle babies attempt to path find to the
-nearest water source block with sky light access.  So you arrange the layout that
+nearest water source block with sky light access.  You arrange the layout so that
 the water source blocks on one side are always the nearest for every block inside the
 enclosure, and then you stop the migration to the sea with trap doors, dropping the baby
 turtles down at least 2 blocks.
@@ -54,6 +57,15 @@ The interior dimensions are not that important, I like using 3 turtles in a 5x5 
 but that is just preference.  The important bit is that on one side, you need an additional
 block and then water, and on all other sides the water must be further away.
 
+![Turtle Farm - Side View](/random-minecraft/assets/early-game-turtle-farm/turtle-farm-side.jpg)
+
+
+
+The third turtle is very useful: with turtles, the mommy turtle starts looking
+for a place to bury their eggs, but the other one resets right away and can be
+fed immediately - and it will breed at once with the third turtle.  Twice the
+eggs with no additional waiting.
+
 In the enclosure, all non-sand blocks should be replaced with sand.  I also like 
 to replace the layer below with some non-gravity block but that is not strictly
 necessary.
@@ -61,11 +73,16 @@ necessary.
 If you still need additional turtles, put a temporay block above the drop until you have
 enough.
 
+![Turtle Farm - Front View](/random-minecraft/assets/early-game-turtle-farm/turtle-farm-front.jpg)
+
+In the front image, the redstone torches below the hoppers are so I can turn them off if I want to -
+this particular farm is in my spawn chunks.
+
 ## Using the farm
 
 Turtle eggs need random ticks to crack, and their best chance to crack is 
 in a brief window of time (21600 to 22550 ticks, around 48 seconds according to the wiki)
-immediately before dawn.
+before dawn.
 
 So you can not sleep at night when trying to breed turtles, you need to stay
 up through the night, although you can sleep just before the sun goes up if

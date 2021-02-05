@@ -3,7 +3,6 @@ title: Todo
 layout: post
 ---
 
-* fair item distribution using droppers
 * auto smelters
 * potion brewers
 * single step flying machines, pull-push vs push pull
@@ -50,3 +49,14 @@ https://www.reddit.com/r/Minecraft/comments/fbwhyv/need_help_with_litematica_for
 * Alt-Middleclick to select block to use
 * Shift-Middleclick to select block to replace
 * Execute Operation
+
+
+### Eary Game Slime Farm
+
+1 floor, 1 golem (too far back): 800 items/hour
+
+2 floors, Ice around, 2 golems: 2600 items/hour
+
+### Fair Item Distribution using Droppers
+
+* Fast to deliver, slow to reset (moveable block entities might help though)
