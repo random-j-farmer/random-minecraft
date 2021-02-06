@@ -4,11 +4,11 @@ title: Early Game Turtle Farm
 tags: early-game turtle farm
 ---
 
-Early game turtle farms are extremely useful.
+Early game turtle farms are extremely useful, for a short period of time.
 
 The Turtle Shell helmet gives an additional 10 seconds of time under water
 before the player starts to take damage.  This makes diving into shipwrecks
-much easier - and early game, the loot from these shipwrecks is extremely useful.
+much easier - and early game, the loot from these shipwrecks is very useful.
 
 [Shipwrecks](https://minecraft.gamepedia.com/Shipwreck) generate with up to 3 loot chests containing
 various seeds (sometimes bamboo!  which can be very welcome), iron (very common) or 
@@ -81,8 +81,8 @@ this particular farm is in my spawn chunks.
 ## Using the farm
 
 Turtle eggs need random ticks to crack, and their best chance to crack is 
-in a brief window of time (21600 to 22550 ticks, around 48 seconds according to the wiki)
-before dawn.
+in a brief window of time before dawn (21600 to 22550 ticks, around 48 
+seconds according to the wiki).
 
 So you can not sleep at night when trying to breed turtles, you need to stay
 up through the night, although you can sleep just before the sun goes up if
