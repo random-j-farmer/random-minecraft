@@ -51,12 +51,17 @@ https://www.reddit.com/r/Minecraft/comments/fbwhyv/need_help_with_litematica_for
 * Execute Operation
 
 
+### Move multiple stacks of items
+
+* Left click first stack to pick it up
+* Shift-Doubleclick another stack
+
+
 ### Eary Game Slime Farm
 
 1 floor, 1 golem (too far back): 800 items/hour
 
 2 floors, Ice around, 2 golems: 2600 items/hour
 
-### Fair Item Distribution using Droppers
 
-* Fast to deliver, slow to reset (moveable block entities might help though)
+

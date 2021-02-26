@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Early Game Iron Farm"
+tags: early-game iron farm
 ---
 
 There are a lot of videos on youtube about "Easy Starter Iron Farms", but to me they
@@ -27,13 +28,11 @@ similiar rates.
 But I do have a preference, and it is this one: [Easier Iron Farm (1.14.4)](https://www.youtube.com/watch?v=3I2jsINPGro)
 
 Obviously, you don't need the workstations anymore but other than that, it still works fine.
-And it has a couple of advantages that I miss about the simplified 1.15+ designs:
 
-* The villagers are not standing on their beds, so if the farm stops working because
-  a bed bugged out, you just wait for day when they are standing and destroy and
-  place the bed again.
-* The spawning pad on top means that a replacement zombie will not be ganked on the ground
-  by iron golems, just put rails or redstone dust on any steps leading up the the zombie position.
+The main advantage over the the simplified 1.15+ designs is that the
+villagers are not standing on their beds, so if the farm stops working because
+a bed bugged out, you just wait for day when they are standing and destroy and
+place the bed again.
 
 Only change that is necessary for me: 2 glass blocks above each bed, and skip the workstations.
 I build temporary stairs to the villager positions and let them go to sleep, than place those
@@ -58,11 +57,11 @@ The Iron Golem will be detected in a cube up to 16 blocks away from the villager
 and since they are 3 blocks tall, 20 blocks down from the villager position is the first
 reasonable position for the killing floor.
 
-Villagers are scared by a zombie up to 8 blocks away.
+Villagers are scared by a zombie up to 8 blocks away. Villagers need to see 2 others, and they need to be within 10 blocks of each other.
+Villagers also need to sleep - so the line of sight to the zombie needs to be interrupted from time
+to time.  This farm accomplishes this by having them hopping up and down in the water source.
 
-Villagers need to see 2 others, and they need to be within 10 blocks of each other.
-
-An easy way to visualize this is by using carpet mods builtin `ai_tracker` script.
+An easy way to visualize the distances is by using carpet mods builtin `ai_tracker` script.
 
     /script load ai_tracker
     /ai_tracker villager_buddy_detection
@@ -137,6 +136,8 @@ on either side put trap doors.  The trap door positions are important.  Remove t
 blocks once you are done. Even glass blocks will inhibit the Iron Golems pathfinding and
 they will get stuck on the platform, bringing your iron farm to a halt.
 
+Note: only 2 glass blocks remain behind the zombie position - one at the height of the zombie slab
+and the one above it.  That third block can stop Iron Golems.
 
 ### The Spawning Pads and Drop Shafts
 
@@ -177,6 +178,13 @@ push the minecart and zombie into position.
 
 The zombie will burn but it should survive the brief exposure.
 
-![Done](/random-minecraft/assets/early-iron-farm/done.jpg)
+### Adding a Roof
 
-You can destroy the trap once you are done but I like to leave it in place.
+Adding a roof is recommended because otherwise your villagers may be converted
+to witches by lightning strikes.  Any block that can be hit by lightning needs
+to be at least 3 blocks away from the villagers.
+
+For this farm, just put a solid roof of lower slabs 3-4 blocks above the spawning
+pads.  The roof needs to cover all spawning pad blocks and trap doors.
+
+![Done](/random-minecraft/assets/early-iron-farm/done.jpg)
