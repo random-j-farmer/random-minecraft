@@ -25,7 +25,6 @@ layout: post
 * finding all the nether fortresses
 * finding all the witch huts
 * early game: starter base
-* early game: iron farm
 * early game: villager trading
 * nether busting
 * main base: storage + cobble + tree farm + cement maker. MSPT
@@ -55,6 +54,11 @@ https://www.reddit.com/r/Minecraft/comments/fbwhyv/need_help_with_litematica_for
 
 * Left click first stack to pick it up
 * Shift-Doubleclick another stack
+
+
+## Copying filled boxes in creative
+
+Ctrl-Middleclick on filled chest (for shulker boxes, I need to have them in my inventory)
 
 
 ### Eary Game Slime Farm

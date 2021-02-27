@@ -11,3 +11,11 @@ Disappearing shulker: is it not picked up in time after being destroyed?  See Me
 Troubleshooting Video.
 
 The redstone power levels will not be right until you fill the filtering hoppers.
+
+
+Troubleshooting video:  https://www.youtube.com/watch?v=VbEAqCTen1A
+Troubleshooting checklist!  Shulker fix!!!
+
+
+* Shulker line prioritized over loose items!  Lock loose items hopper when shulker hopper has items
+* Glass around block where shulker box is destroyed, I've seen it fall outside
